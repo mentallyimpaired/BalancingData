@@ -69231,25 +69231,6 @@
     ]
   },
   {
-    "NameId": "bpart_bossrush_06",
-    "Type": 0,
-    "VictoryCondition": {
-      "Type": 0,
-      "NameId": "",
-      "Value": 0.0
-    },
-    "BattleParticipants": [
-      {
-        "NameId": "pig_zombie_zacian",
-        "LevelDifference": 0,
-        "Probability": 1.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      }
-    ]
-  },
-  {
     "NameId": "summon_frostbites",
     "Type": 1,
     "VictoryCondition": {
