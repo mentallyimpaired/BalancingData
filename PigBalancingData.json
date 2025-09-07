@@ -18722,7 +18722,7 @@
     "LocaId": "pig_zombie_zacian",
     "DefaultInventoryNameId": "pig_zombie_knight_01",
     "BaseHealth": 2550,
-    "BaseAttack": 24,
+    "BaseAttack": 31,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
