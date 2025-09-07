@@ -1,0 +1,462 @@
+[
+  {
+    "NameId": "LevelRange_00",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_01",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_02",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_03",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_04",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_05",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_06",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_07",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_08",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  },
+  {
+    "NameId": "LevelRange_09",
+    "ChanceWith3Different": 50.0,
+    "ChanceWith2SameOn2": 75.0,
+    "ChanceWith2SameOn1": 60.0,
+    "ChanceWith3Same": 100.0,
+    "BannerChanceWith3Same": 100.0,
+    "BannerChanceWith2SameOn2": 75.0,
+    "BuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollcostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 5.0
+      }
+    ],
+    "RerollcostIncrease": 5.0,
+    "RerollcostMax": 50.0,
+    "AncientChance": 50.0,
+    "AncientChanceRerollIncrease": 50.0,
+    "AncientChanceRerollMax": 100.0,
+    "AncientItemEnchLevel": 5,
+    "IncreaseAncientChancePerAncientItem": 50.0,
+    "BannerFusionBuyRequirements": [
+      {
+        "RequirementType": 1,
+        "NameId": "gold",
+        "Value": 0.0
+      }
+    ],
+    "RerollBannerCostBase": [
+      {
+        "RequirementType": 1,
+        "NameId": "lucky_coin",
+        "Value": 10.0
+      }
+    ],
+    "RerollBannerCostIncrease": 10.0,
+    "RerollBannerCostMax": 100.0
+  }
+]

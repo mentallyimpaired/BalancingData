@@ -1,0 +1,914 @@
+[
+  {
+    "NameId": "offer_lucky_coins_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_3",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_4",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_5",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_1a",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_2a",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_3a",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_4a",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_5a",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_0",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_1b",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_2b",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_3b",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_4b",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_5b",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_0_discount",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_1b_discount",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_2b_discount",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_3b_discount",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_4b_discount",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_5b_discount",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_cs",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_cs_5",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_charity_blackfriday",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_bf1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_bf2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_lucky_coins_charity_RoomToRead",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_permanent_golden_chili",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_starter_bundle_01",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_starter_bundle_02",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_samurai_bundle_01",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_samurai_set_01",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_voucher_test",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_bonuscode_magazine01",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_bonuscode_objectives01",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "addbird_yellowbird",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.addbird_yellowbird",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQAQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQAA",
+    "XBoxLiveAchievementId": 1
+  },
+  {
+    "NameId": "addbird_whitebird",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.addbird_whitebird",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQAg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQAQ",
+    "XBoxLiveAchievementId": 2
+  },
+  {
+    "NameId": "addbird_blackbird",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.addbird_blackbird",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQAw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQAg",
+    "XBoxLiveAchievementId": 3
+  },
+  {
+    "NameId": "addbird_bluebird",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.addbird_bluebird",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQEg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQAw",
+    "XBoxLiveAchievementId": 5
+  },
+  {
+    "NameId": "key_yellow",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.key_yellow",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQBA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQBA",
+    "XBoxLiveAchievementId": 7
+  },
+  {
+    "NameId": "key_blue",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.key_blue",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQBQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQBQ",
+    "XBoxLiveAchievementId": 8
+  },
+  {
+    "NameId": "key_red",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.key_red",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQBg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQBg",
+    "XBoxLiveAchievementId": 9
+  },
+  {
+    "NameId": "egg_01",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.egg_01",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQBw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQBw",
+    "XBoxLiveAchievementId": 10
+  },
+  {
+    "NameId": "egg_02",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.egg_02",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQCA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQCA",
+    "XBoxLiveAchievementId": 11
+  },
+  {
+    "NameId": "egg_03",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.egg_03",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQCQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQCQ",
+    "XBoxLiveAchievementId": 12
+  },
+  {
+    "NameId": "egg_04",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.egg_04",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQCg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQCg",
+    "XBoxLiveAchievementId": 13
+  },
+  {
+    "NameId": "egg_05",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.egg_05",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQCw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQCw",
+    "XBoxLiveAchievementId": 14
+  },
+  {
+    "NameId": "class_upgrade_bronze",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.class_upgrade_bronze",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQDA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQDA",
+    "XBoxLiveAchievementId": 15
+  },
+  {
+    "NameId": "class_upgrade_silver",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.class_upgrade_silver",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQDQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQDQ",
+    "XBoxLiveAchievementId": 16
+  },
+  {
+    "NameId": "class_upgrade_gold",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.class_upgrade_gold",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQDg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQDg",
+    "XBoxLiveAchievementId": 17
+  },
+  {
+    "NameId": "chronicle_cave_progress",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.chronicle_cave_progress",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQDw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQDw",
+    "XBoxLiveAchievementId": 18
+  },
+  {
+    "NameId": "unlock_airship",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.unlock_airship",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQEA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQEA",
+    "XBoxLiveAchievementId": 19
+  },
+  {
+    "NameId": "unlock_ship",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.unlock_ship",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQEw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQEw",
+    "XBoxLiveAchievementId": 20
+  },
+  {
+    "NameId": "unlock_submarine",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.unlock_submarine",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQEQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQEQ",
+    "XBoxLiveAchievementId": 21
+  },
+  {
+    "NameId": "winArenaBattles",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.winArenaBattles",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQIg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQIQ",
+    "XBoxLiveAchievementId": 22
+  },
+  {
+    "NameId": "completeObjectives",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.completeObjectives",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQGw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQGg",
+    "XBoxLiveAchievementId": 23
+  },
+  {
+    "NameId": "completeCaves",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.completeCaves",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQIQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQIA",
+    "XBoxLiveAchievementId": 24
+  },
+  {
+    "NameId": "topSpotDiamond",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.topSpotDiamond",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQFQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQFA",
+    "XBoxLiveAchievementId": 25
+  },
+  {
+    "NameId": "reachDiamond",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.reachDiamond",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQFg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQFQ",
+    "XBoxLiveAchievementId": 26
+  },
+  {
+    "NameId": "reachStone",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.reachStone",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQFw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQFg",
+    "XBoxLiveAchievementId": 27
+  },
+  {
+    "NameId": "reachSilver",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.reachSilver",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQGA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQFw",
+    "XBoxLiveAchievementId": 28
+  },
+  {
+    "NameId": "reachGold",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.reachGold",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQGQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQGA",
+    "XBoxLiveAchievementId": 29
+  },
+  {
+    "NameId": "reachPlatinum",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.reachPlatinum",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQGg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQGQ",
+    "XBoxLiveAchievementId": 30
+  },
+  {
+    "NameId": "defeatAllClasses",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.defeatAllClasses",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQHA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQGw",
+    "XBoxLiveAchievementId": 31
+  },
+  {
+    "NameId": "playAllClasses",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.playAllClasses",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQHQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQHA",
+    "XBoxLiveAchievementId": 32
+  },
+  {
+    "NameId": "completeBannerSet",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.completeBannerSet",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQHg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQHQ",
+    "XBoxLiveAchievementId": 33
+  },
+  {
+    "NameId": "unlock_pvp",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.unlock_pvp",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQHw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQHg",
+    "XBoxLiveAchievementId": 34
+  },
+  {
+    "NameId": "topSpotAnyLeague",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.topSpotAnyLeague",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQIA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQHw",
+    "XBoxLiveAchievementId": 35
+  },
+  {
+    "NameId": "eventZombie",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.eventZombie",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQIw",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQIg",
+    "XBoxLiveAchievementId": 36
+  },
+  {
+    "NameId": "eventPirates",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.eventPirates",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQJA",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQIw",
+    "XBoxLiveAchievementId": 37
+  },
+  {
+    "NameId": "eventNinja",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.eventNinja",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQJQ",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQJA",
+    "XBoxLiveAchievementId": 38
+  },
+  {
+    "NameId": "topSpotEvent",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "com.rovio.gold.topSpotEvent",
+    "ChimeraGooglePlayAchievementId": "CgkI2umcnMQKEAIQJg",
+    "RovioGooglePlayAchievementId": "CgkI64aqjd0eEAIQJQ",
+    "XBoxLiveAchievementId": 39
+  },
+  {
+    "NameId": "offer_special_dojo_unlock_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_special_arena_unlock_1_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_special_arena_unlock_1_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_special_arena_unlock_2_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_special_arena_unlock_2_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_special_campaign_end_1_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_special_campaign_end_1_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_starter_class_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_starter_class_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_starter_class_3",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_starter_class_4",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_starter_class_5",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_chest_endless_1_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_chest_endless_1_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_chest_endless_2_1",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_chest_endless_2_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_upsell_castle_2",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_upsell_castle_3",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_upsell_castle_4",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_upsell_castle_5",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_low_40",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_low_50",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_low_60",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_high_30",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_high_40",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_high_50",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_high_60",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_high_70",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_high_80",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_bomb_s",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_bomb_m",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_bomb_l",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_bomb_xl",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_bomb_xxl_all",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_mastery_bomb_xxl_npu",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_perma_xs",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_perma_s",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_perma_m",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_perma_l",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_perma_xl",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  },
+  {
+    "NameId": "offer_perma_xxl",
+    "PaymentProductId": "",
+    "GamecenterAchievementId": "",
+    "ChimeraGooglePlayAchievementId": "",
+    "RovioGooglePlayAchievementId": "",
+    "XBoxLiveAchievementId": 0
+  }
+]
