@@ -7421,7 +7421,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 90.0
+        "Value": 130.0
       }
     ],
     "ShowRequirements": [
@@ -7454,7 +7454,7 @@
     "OfferContents": {
       "skin_eliteknight": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 101,
     "Category": "shop_global_classes",
     "NameId": "offer_class_red_skin_knight_02",
@@ -7472,7 +7472,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_premiumeliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -7521,7 +7521,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -7531,7 +7531,7 @@
     "OfferContents": {
       "skin_eliteguardian": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 102,
     "Category": "shop_global_classes",
     "NameId": "offer_class_red_skin_eliteguardian_02",
@@ -7549,7 +7549,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t2eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -7598,7 +7598,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -7608,7 +7608,7 @@
     "OfferContents": {
       "skin_elitesamurai": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 103,
     "Category": "shop_global_classes",
     "NameId": "offer_class_red_skin_elitesamurai_02",
@@ -7626,7 +7626,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t3eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -7675,7 +7675,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -7685,7 +7685,7 @@
     "OfferContents": {
       "skin_eliteavenger": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 104,
     "Category": "shop_global_classes",
     "NameId": "offer_class_red_skin_eliteavenger_02",
@@ -7703,7 +7703,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t4eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -7752,7 +7752,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -7762,7 +7762,7 @@
     "OfferContents": {
       "skin_elitemage": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 201,
     "Category": "shop_global_classes",
     "NameId": "offer_class_yellow_skin_mage_02",
@@ -7780,7 +7780,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_premiumeliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -7829,7 +7829,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -7839,7 +7839,7 @@
     "OfferContents": {
       "skin_elitelightningbird": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 202,
     "Category": "shop_global_classes",
     "NameId": "offer_class_yellow_skin_elitelightningbird_02",
@@ -7857,7 +7857,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t2eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -7906,7 +7906,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -7916,7 +7916,7 @@
     "OfferContents": {
       "skin_eliterainbird": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 203,
     "Category": "shop_global_classes",
     "NameId": "offer_class_yellow_skin_eliterainbird_02",
@@ -7934,7 +7934,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t3eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -7983,7 +7983,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -7993,7 +7993,7 @@
     "OfferContents": {
       "skin_elitewizard": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 204,
     "Category": "shop_global_classes",
     "NameId": "offer_class_yellow_skin_wizard_02",
@@ -8011,7 +8011,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t4eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8060,7 +8060,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8070,7 +8070,7 @@
     "OfferContents": {
       "skin_elitecleric": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 301,
     "Category": "shop_global_classes",
     "NameId": "offer_class_white_skin_cleric_02",
@@ -8088,7 +8088,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_premiumeliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8137,7 +8137,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8147,7 +8147,7 @@
     "OfferContents": {
       "skin_elitedruid": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 302,
     "Category": "shop_global_classes",
     "NameId": "offer_class_white_skin_elitedruid_02",
@@ -8165,7 +8165,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t2eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8214,7 +8214,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8224,7 +8224,7 @@
     "OfferContents": {
       "skin_eliteprincess": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 303,
     "Category": "shop_global_classes",
     "NameId": "offer_class_white_skin_eliteprincess_02",
@@ -8242,7 +8242,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t3eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8291,7 +8291,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8301,7 +8301,7 @@
     "OfferContents": {
       "skin_elitepriest": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 304,
     "Category": "shop_global_classes",
     "NameId": "offer_class_white_skin_elitepriest_02",
@@ -8319,7 +8319,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t4eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8368,7 +8368,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8378,7 +8378,7 @@
     "OfferContents": {
       "skin_elitepirate": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 401,
     "Category": "shop_global_classes",
     "NameId": "offer_class_black_skin_pirate_02",
@@ -8396,7 +8396,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_premiumeliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8445,7 +8445,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8455,7 +8455,7 @@
     "OfferContents": {
       "skin_elitecannoneer": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 402,
     "Category": "shop_global_classes",
     "NameId": "offer_class_black_skin_elitecannoneer_02",
@@ -8473,7 +8473,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t2eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8522,7 +8522,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8532,7 +8532,7 @@
     "OfferContents": {
       "skin_eliteberserk": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 403,
     "Category": "shop_global_classes",
     "NameId": "offer_class_black_skin_eliteberserk_02",
@@ -8550,7 +8550,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t3eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8599,7 +8599,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8609,7 +8609,7 @@
     "OfferContents": {
       "skin_elitecaptn": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 404,
     "Category": "shop_global_classes",
     "NameId": "offer_class_black_skin_elitecaptn_02",
@@ -8627,7 +8627,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t4eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8676,7 +8676,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8686,7 +8686,7 @@
     "OfferContents": {
       "skin_elitetricksters": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 501,
     "Category": "shop_global_classes",
     "NameId": "offer_class_blue_skin_tricksters_02",
@@ -8704,7 +8704,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_premiumeliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8753,7 +8753,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8763,7 +8763,7 @@
     "OfferContents": {
       "skin_eliterogues": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 502,
     "Category": "shop_global_classes",
     "NameId": "offer_class_blue_skin_eliterogues_02",
@@ -8781,7 +8781,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t2eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8830,7 +8830,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8840,7 +8840,7 @@
     "OfferContents": {
       "skin_elitemarksmen": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 503,
     "Category": "shop_global_classes",
     "NameId": "offer_class_blue_skin_elitemarksmen_02",
@@ -8858,7 +8858,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t3eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8907,7 +8907,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -8917,7 +8917,7 @@
     "OfferContents": {
       "skin_elitespies": 1
     },
-    "SortPriority": 1,
+    "SortPriority": 2,
     "SlotId": 504,
     "Category": "shop_global_classes",
     "NameId": "offer_class_blue_skin_elitespies_02",
@@ -8935,7 +8935,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "unlock_t4eliteskins",
+    "PopupLoca": "unlock_stpatricks",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -8984,7 +8984,7 @@
     "SpecialOfferPrio": 0,
     "SpeechBubbleLoca": null,
     "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": true
+    "HideUnlessOnSale": false
   },
   {
     "DiscountPrice": 0,
@@ -23672,7 +23672,7 @@
       {
         "RequirementType": 1,
         "NameId": "gold",
-        "Value": 5000.0
+        "Value": 8000.0
       }
     ],
     "ShowRequirements": null,
