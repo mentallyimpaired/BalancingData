@@ -2661,7 +2661,7 @@
     "LocaId": "pig_ghost_shipkobold_boss",
     "DefaultInventoryNameId": "pig_ghost_shipkobold_01",
     "BaseHealth": 2000,
-    "BaseAttack": 11,
+    "BaseAttack": 12,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
@@ -2697,7 +2697,7 @@
     "LocaId": "pig_ghost_shipkobold_boss",
     "DefaultInventoryNameId": "pig_ghost_shipkobold_01",
     "BaseHealth": 2000,
-    "BaseAttack": 11,
+    "BaseAttack": 12,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
