@@ -47,7 +47,7 @@
     "AssetId": "IntimidatingStrike",
     "LocaId": "bird_attack_red_knight",
     "SkillParameters": {
-      "damage_in_percent": 125.0
+      "damage_in_percent": 120.0
     },
     "SkillTemplateType": "SimpleAttackWithTauntSkill",
     "EffectDuration": 3,
