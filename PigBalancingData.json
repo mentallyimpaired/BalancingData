@@ -18715,5 +18715,37 @@
     "PigStrength": 7,
     "PassiveSkillNameId": "",
     "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_zombie_zacian",
+    "AssetId": "ZombiePig",
+    "LocaId": "pig_zombie_zacian",
+    "DefaultInventoryNameId": "pig_zombie_knight_01",
+    "BaseHealth": 2550,
+    "BaseAttack": 24,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_brute_pirate"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 100.0,
+        "ComboChain": [
+          "pig_attack_brute_pirate"
+        ]
+      }
+    ],
+    "SizeType": 1,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig5_defeated_gold": 1,
+      "loot_pig5_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.5,
+    "PigStrength": 5,
+    "PassiveSkillNameId": "pig_passive_block_consumables",
+    "IgnoreDifficulty": false
   }
 ]
