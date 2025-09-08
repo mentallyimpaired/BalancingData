@@ -6132,7 +6132,7 @@
       "skin_elitestoneguard": 1
     },
     "SortPriority": 2,
-    "SlotId": 2,
+    "SlotId": 106,
     "Category": "shop_global_classes",
     "NameId": "offer_class_red_skin_stoneguard",
     "AssetId": "",
@@ -6271,7 +6271,7 @@
       "skin_elitepaladin": 1
     },
     "SortPriority": 2,
-    "SlotId": 1,
+    "SlotId": 105,
     "Category": "shop_global_classes",
     "NameId": "offer_class_red_skin_paladin",
     "AssetId": "",
@@ -6410,7 +6410,7 @@
       "skin_elitethunderbird": 1
     },
     "SortPriority": 2,
-    "SlotId": 3,
+    "SlotId": 205,
     "Category": "shop_global_classes",
     "NameId": "offer_class_yellow_skin_thunderbird",
     "AssetId": "",
@@ -6549,7 +6549,7 @@
       "skin_eliteillusionist": 1
     },
     "SortPriority": 2,
-    "SlotId": 4,
+    "SlotId": 206,
     "Category": "shop_global_classes",
     "NameId": "offer_class_yellow_skin_illusionist",
     "AssetId": "",
@@ -6683,7 +6683,7 @@
       "skin_elitebard": 1
     },
     "SortPriority": 2,
-    "SlotId": 5,
+    "SlotId": 305,
     "Category": "shop_global_classes",
     "NameId": "offer_class_white_skin_bard",
     "AssetId": "",
@@ -6822,7 +6822,7 @@
       "skin_elitewitch": 1
     },
     "SortPriority": 2,
-    "SlotId": 6,
+    "SlotId": 306,
     "Category": "shop_global_classes",
     "NameId": "offer_class_white_skin_witch",
     "AssetId": "",
@@ -6961,7 +6961,7 @@
       "skin_eliteseadog": 1
     },
     "SortPriority": 2,
-    "SlotId": 7,
+    "SlotId": 405,
     "Category": "shop_global_classes",
     "NameId": "offer_class_black_skin_seadog",
     "AssetId": "",
@@ -7100,7 +7100,7 @@
       "skin_elitewinterfighter": 1
     },
     "SortPriority": 2,
-    "SlotId": 8,
+    "SlotId": 406,
     "Category": "shop_global_classes",
     "NameId": "offer_class_black_skin_winterfighter",
     "AssetId": "",
@@ -7239,7 +7239,7 @@
       "skin_eliteskulkers": 1
     },
     "SortPriority": 2,
-    "SlotId": 9,
+    "SlotId": 505,
     "Category": "shop_global_classes",
     "NameId": "offer_class_blue_skin_skulkers",
     "AssetId": "",
@@ -7378,7 +7378,7 @@
       "skin_elitetreasurehunters": 1
     },
     "SortPriority": 2,
-    "SlotId": 10,
+    "SlotId": 506,
     "Category": "shop_global_classes",
     "NameId": "offer_class_blue_skin_treasurehunters",
     "AssetId": "",
@@ -24628,7 +24628,7 @@
       "skin_elitesamurai_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 18,
+    "SlotId": 601,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_samurai",
     "AssetId": "",
@@ -24700,7 +24700,7 @@
       "skin_elitestoneguard_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 19,
+    "SlotId": 602,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_stoneguard",
     "AssetId": "",
@@ -24772,7 +24772,7 @@
       "skin_elitethunderbird_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 20,
+    "SlotId": 603,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_thunderbird",
     "AssetId": "",
@@ -24844,7 +24844,7 @@
       "skin_eliteillusionist_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 21,
+    "SlotId": 604,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_illusionist",
     "AssetId": "",
@@ -24916,7 +24916,7 @@
       "skin_eliteprincess_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 22,
+    "SlotId": 605,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_princess",
     "AssetId": "",
@@ -24988,7 +24988,7 @@
       "skin_elitewitch_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 23,
+    "SlotId": 606,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_witch",
     "AssetId": "",
@@ -25060,7 +25060,7 @@
       "skin_eliteseadog_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 24,
+    "SlotId": 607,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_seadog",
     "AssetId": "",
@@ -25132,7 +25132,7 @@
       "skin_elitewinterfighter_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 25,
+    "SlotId": 608,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_winterfighter",
     "AssetId": "",
@@ -25204,7 +25204,7 @@
       "skin_elitespies_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 26,
+    "SlotId": 609,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_spies",
     "AssetId": "",
@@ -25276,7 +25276,7 @@
       "skin_elitetreasurehunters_challenger": 1
     },
     "SortPriority": 1,
-    "SlotId": 27,
+    "SlotId": 610,
     "Category": "shop_global_classes",
     "NameId": "offer_class_challenger_treasurehunters",
     "AssetId": "",
