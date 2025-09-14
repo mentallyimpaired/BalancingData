@@ -2451,8 +2451,9 @@
     "AssetId": "Consumable_Health",
     "LocaId": "bird_support_minion_merchant",
     "SkillParameters": {
-      "health_in_percent": 20.0,
-      "increase_rage": 10.0
+      "health_in_percent": 15.0,
+      "increase_rage": 15.0,
+	  "invoker": 1.0
     },
     "SkillTemplateType": "HealAndAddRage",
     "EffectDuration": 0,
@@ -2474,7 +2475,8 @@
     "SkillParameters": {
       "all": 1.0,
       "health_in_percent": 35.0,
-      "increase_rage": 35.0
+      "increase_rage": 35.0,
+	  "use_rageanim": 1.0
     },
     "SkillTemplateType": "HealAndAddRage",
     "EffectDuration": 0,
@@ -4231,6 +4233,50 @@
     "IconAtlasId": "Skills_Pigs_01",
     "EffectIconAtlasId": "",
     "EffectIconAssetId": "",
+    "TargetCulling": null
+  },
+  {
+    "NameId": "pig_attack_ninja_boss",
+    "AssetId": "WeakSpot",
+    "LocaId": "pig_attack_ninja_boss",
+    "SkillParameters": {
+      "damage_in_percent": 100.0,
+      "attack_count": 3.0,
+      "increase_in_percent": 50.0,
+      "chance": 100.0
+    },
+    "SkillTemplateType": "AttackWithIncreaseDamageReceived",
+    "EffectDuration": 2,
+    "TargetType": 1,
+    "EffectType": 2,
+    "TargetingBehavior": 0,
+    "TargetAlreadyAffectedTargets": true,
+    "TargetSelfPossible": true,
+    "IconAssetId": "AttackCurse",
+    "IconAtlasId": "Skills_Pigs_01",
+    "EffectIconAtlasId": "Skills_Pigs_01",
+    "EffectIconAssetId": "AttackCurse",
+    "TargetCulling": null
+  },
+  {
+    "NameId": "pig_support_ninja_boss",
+    "AssetId": "FlashBomb",
+    "LocaId": "pig_support_ninja_boss",
+    "SkillParameters": {
+      "percent": 50.0,
+	  "cleanse_chance": 100.0
+    },
+    "SkillTemplateType": "ApplyEvadeChanceSkill",
+    "EffectDuration": 3,
+    "TargetType": 2,
+    "EffectType": 1,
+    "TargetingBehavior": 16,
+    "TargetAlreadyAffectedTargets": true,
+    "TargetSelfPossible": true,
+    "IconAssetId": "Blessing",
+    "IconAtlasId": "Skills_Pigs_01",
+    "EffectIconAtlasId": "Skills_Pigs_01",
+    "EffectIconAssetId": "Blessing",
     "TargetCulling": null
   },
   {

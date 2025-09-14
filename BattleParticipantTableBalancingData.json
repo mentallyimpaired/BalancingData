@@ -18909,18 +18909,10 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_ninja_black",
+        "NameId": "pig_ninja_boss_twin",
         "LevelDifference": 0,
         "Probability": 1.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_ninja_black",
-        "LevelDifference": 0,
-        "Probability": 1.0,
-        "Amount": 1.0,
+        "Amount": 2.0,
         "Unique": false,
         "ForcePercent": false
       }
@@ -18928,7 +18920,7 @@
   },
   {
     "NameId": "bpart_091_1",
-    "Type": 1,
+    "Type": 0,
     "VictoryCondition": {
       "Type": 0,
       "NameId": "",
@@ -18936,76 +18928,12 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_ghost_willowhisp",
+        "NameId": "pig_ninja_boss_twin",
         "LevelDifference": 0,
         "Probability": 1.0,
-        "Amount": 1.0,
+        "Amount": 2.0,
         "Unique": false,
         "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_lancer",
-        "LevelDifference": 0,
-        "Probability": 2.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_moustache_mandarin",
-        "LevelDifference": 0,
-        "Probability": 2.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_ninja_black",
-        "LevelDifference": 0,
-        "Probability": 3.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_ninja_bowman",
-        "LevelDifference": 0,
-        "Probability": 3.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_ninja_red",
-        "LevelDifference": 0,
-        "Probability": 2.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_ninja_master",
-        "LevelDifference": 0,
-        "Probability": 2.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_zombie_jiangshi",
-        "LevelDifference": 0,
-        "Probability": 2.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_phat_loot",
-        "LevelDifference": 0,
-        "Probability": 5.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": true
       }
     ]
   },

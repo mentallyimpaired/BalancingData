@@ -520,6 +520,14 @@
     "SetAsNewInShop": 0
   },
   {
+    "NameId": "unlock_speedup",
+    "ItemType": 7,
+    "AssetBaseId": "AutoBattle",
+    "LocaBaseId": "unlock_speedup",
+    "SortPriority": 0,
+    "SetAsNewInShop": 0
+  },
+  {
     "NameId": "unlock_enchantment",
     "ItemType": 7,
     "AssetBaseId": "Enchantment",

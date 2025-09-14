@@ -2510,6 +2510,7 @@
       "loot_egg_bonus": 1,
       "comic_cutscene_02": 1,
       "unlock_autobattle": 1,
+	  "unlock_speedup": 1,
       "unlock_xpromo": 1
     },
     "StrengthPoints": 15,
@@ -11005,7 +11006,7 @@
     },
     "BackgroundAssetId": "Battleground_BambooForest_02",
     "UsableFriendBirdsCount": 0,
-    "SoundAssetId": "Music_Combat_Basic",
+    "SoundAssetId": "Music_Combat_Special",
     "ScoringStrategy": 1,
     "BonusPoints": 0,
     "EnvironmentalEffects": null,
@@ -11018,7 +11019,7 @@
     "PowerLevelThresholdLow": 50.0,
     "PowerLevelThresholdHigh": 0.0,
     "ApplyPowerLevelBalancing": false,
-    "Difficulty": 0,
+    "Difficulty": 20,
     "BonusLoot": {
       "experience": 67
     },
@@ -11042,7 +11043,7 @@
     },
     "BackgroundAssetId": "Battleground_BambooForest_02",
     "UsableFriendBirdsCount": 0,
-    "SoundAssetId": "Music_Combat_Basic",
+    "SoundAssetId": "Music_Combat_Special",
     "ScoringStrategy": 1,
     "BonusPoints": 0,
     "EnvironmentalEffects": null,
@@ -11055,7 +11056,7 @@
     "PowerLevelThresholdLow": 50.0,
     "PowerLevelThresholdHigh": 0.0,
     "ApplyPowerLevelBalancing": false,
-    "Difficulty": 0,
+    "Difficulty": 20,
     "BonusLoot": null,
     "BattleType": "Dodge",
     "PowerlevelModifier": 0.0
