@@ -19658,7 +19658,7 @@
     "PowerLevelThresholdLow": 0.0,
     "PowerLevelThresholdHigh": 0.0,
     "ApplyPowerLevelBalancing": false,
-    "Difficulty": 85,
+    "Difficulty": 35,
     "BonusLoot": {
       "experience": 430
     },
@@ -19703,7 +19703,7 @@
     "PowerLevelThresholdLow": 0.0,
     "PowerLevelThresholdHigh": 0.0,
     "ApplyPowerLevelBalancing": false,
-    "Difficulty": 85,
+    "Difficulty": 35,
     "BonusLoot": null,
     "BattleType": "",
     "PowerlevelModifier": 0.0
