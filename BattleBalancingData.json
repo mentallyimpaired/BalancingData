@@ -8494,9 +8494,7 @@
     "NameId": "battle_046_3",
     "BaseLevel": 8,
     "BattleParticipantsIds": [
-      "bpart_070_10",
-      "bpart_070_11",
-      "bpart_070_12"
+      "bpart_070_10"
     ],
     "LootTableWheel": {
       "battle_vial_03": 1
@@ -8515,7 +8513,7 @@
     },
     "BackgroundAssetId": "Battleground_SlingshotForest_01",
     "UsableFriendBirdsCount": 1,
-    "SoundAssetId": "Music_Combat_Basic",
+    "SoundAssetId": "Music_Combat_Special",
     "ScoringStrategy": 1,
     "BonusPoints": 0,
     "EnvironmentalEffects": null,
@@ -8537,9 +8535,7 @@
     "NameId": "battle_046_3_resolved",
     "BaseLevel": 8,
     "BattleParticipantsIds": [
-      "bpart_070_10_1",
-      "bpart_070_11_1",
-      "bpart_070_12_1"
+      "bpart_070_10_1"
     ],
     "LootTableWheel": {
       "battle_vial_03": 1
@@ -8552,7 +8548,7 @@
     },
     "BackgroundAssetId": "Battleground_SlingshotForest_01",
     "UsableFriendBirdsCount": 1,
-    "SoundAssetId": "Music_Combat_Basic",
+    "SoundAssetId": "Music_Combat_Special",
     "ScoringStrategy": 1,
     "BonusPoints": 0,
     "EnvironmentalEffects": null,
@@ -10768,7 +10764,7 @@
     },
     "BackgroundAssetId": "Battleground_BambooForest_03",
     "UsableFriendBirdsCount": 1,
-    "SoundAssetId": "Music_Combat_Basic",
+    "SoundAssetId": "Music_Combat_Special",
     "ScoringStrategy": 1,
     "BonusPoints": 0,
     "EnvironmentalEffects": null,
@@ -10803,7 +10799,7 @@
     },
     "BackgroundAssetId": "Battleground_BambooForest_03",
     "UsableFriendBirdsCount": 1,
-    "SoundAssetId": "Music_Combat_Basic",
+    "SoundAssetId": "Music_Combat_Special",
     "ScoringStrategy": 1,
     "BonusPoints": 0,
     "EnvironmentalEffects": null,

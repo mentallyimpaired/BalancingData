@@ -12377,7 +12377,7 @@
   },
   {
     "NameId": "bpart_070_7",
-    "Type": 0,
+    "Type": 1,
     "VictoryCondition": {
       "Type": 0,
       "NameId": "",
@@ -12385,18 +12385,114 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_minion_rogue_miniboss",
+        "NameId": "pig_pigmies_forest_small",
         "LevelDifference": 0,
-        "Probability": 1.0,
+        "Probability": 6.0,
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
+      },
+      {
+        "NameId": "pig_caster_naturepig",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pirate_adventurer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_zombie_berserk",
+        "LevelDifference": 0,
+        "Probability": 2.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_stickpig",
+        "LevelDifference": 0,
+        "Probability": 3.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_bird_catcher",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_brute_brawler",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_brute_brute",
+        "LevelDifference": 0,
+        "Probability": 3.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pigmies_forest",
+        "LevelDifference": 0,
+        "Probability": 6.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pigmies_shooters",
+        "LevelDifference": 0,
+        "Probability": 6.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_shaman_shaman",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_shaman_witch_doctor",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_phat_loot",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": true
       }
     ]
   },
   {
     "NameId": "bpart_070_8",
-    "Type": 0,
+    "Type": 1,
     "VictoryCondition": {
       "Type": 0,
       "NameId": "",
@@ -12404,18 +12500,114 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_minion_bird_catcher",
+        "NameId": "pig_pigmies_forest_small",
         "LevelDifference": 0,
-        "Probability": 1.0,
+        "Probability": 6.0,
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
+      },
+      {
+        "NameId": "pig_caster_naturepig",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pirate_adventurer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_zombie_berserk",
+        "LevelDifference": 0,
+        "Probability": 2.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_stickpig",
+        "LevelDifference": 0,
+        "Probability": 3.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_bird_catcher",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_brute_brawler",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_brute_brute",
+        "LevelDifference": 0,
+        "Probability": 3.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pigmies_forest",
+        "LevelDifference": 0,
+        "Probability": 6.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pigmies_shooters",
+        "LevelDifference": 0,
+        "Probability": 6.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_shaman_shaman",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_shaman_witch_doctor",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_phat_loot",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": true
       }
     ]
   },
   {
     "NameId": "bpart_070_9",
-    "Type": 0,
+    "Type": 1,
     "VictoryCondition": {
       "Type": 0,
       "NameId": "",
@@ -12423,12 +12615,108 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_minion_bird_catcher",
+        "NameId": "pig_pigmies_forest_small",
         "LevelDifference": 0,
-        "Probability": 1.0,
-        "Amount": 2.0,
+        "Probability": 6.0,
+        "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
+      },
+      {
+        "NameId": "pig_caster_naturepig",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pirate_adventurer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_zombie_berserk",
+        "LevelDifference": 0,
+        "Probability": 2.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_stickpig",
+        "LevelDifference": 0,
+        "Probability": 3.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_bird_catcher",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_brute_brawler",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_brute_brute",
+        "LevelDifference": 0,
+        "Probability": 3.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pigmies_forest",
+        "LevelDifference": 0,
+        "Probability": 6.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_pigmies_shooters",
+        "LevelDifference": 0,
+        "Probability": 6.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_shaman_shaman",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_shaman_witch_doctor",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_phat_loot",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": true
       }
     ]
   },
@@ -12787,7 +13075,7 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_brute_brute",
+        "NameId": "pig_shaman_brute_boss",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -12860,7 +13148,7 @@
   },
   {
     "NameId": "bpart_070_10_1",
-    "Type": 1,
+    "Type": 0,
     "VictoryCondition": {
       "Type": 0,
       "NameId": "",
@@ -12868,108 +13156,12 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_pigmies_forest_small",
-        "LevelDifference": 0,
-        "Probability": 6.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_caster_naturepig",
-        "LevelDifference": 0,
-        "Probability": 4.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_pirate_adventurer",
+        "NameId": "pig_shaman_brute_boss",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_zombie_berserk",
-        "LevelDifference": 0,
-        "Probability": 2.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_stickpig",
-        "LevelDifference": 0,
-        "Probability": 3.0,
-        "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_bird_catcher",
-        "LevelDifference": 0,
-        "Probability": 5.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_brute_brawler",
-        "LevelDifference": 0,
-        "Probability": 5.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_brute_brute",
-        "LevelDifference": 0,
-        "Probability": 3.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_pigmies_forest",
-        "LevelDifference": 0,
-        "Probability": 6.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_pigmies_shooters",
-        "LevelDifference": 0,
-        "Probability": 6.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_shaman_shaman",
-        "LevelDifference": 0,
-        "Probability": 4.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_shaman_witch_doctor",
-        "LevelDifference": 0,
-        "Probability": 4.0,
-        "Amount": 1.0,
-        "Unique": true,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_phat_loot",
-        "LevelDifference": 0,
-        "Probability": 5.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": true
       }
     ]
   },
@@ -16740,7 +16932,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -16864,7 +17056,7 @@
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -16974,7 +17166,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17057,7 +17249,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17140,7 +17332,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17250,7 +17442,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17406,7 +17598,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17489,7 +17681,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17572,7 +17764,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17690,7 +17882,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17816,7 +18008,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17859,7 +18051,7 @@
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -17942,7 +18134,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18194,7 +18386,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18277,7 +18469,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18360,7 +18552,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18524,7 +18716,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18712,7 +18904,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18795,7 +18987,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18878,7 +19070,7 @@
         "LevelDifference": 0,
         "Probability": 2.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {
@@ -18909,10 +19101,18 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_ninja_boss_twin",
+        "NameId": "pig_ninja_boss_twin_sword",
         "LevelDifference": 0,
         "Probability": 1.0,
-        "Amount": 2.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_boss_twin_bow",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
       }
@@ -18928,10 +19128,18 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_ninja_boss_twin",
+        "NameId": "pig_ninja_boss_twin_sword",
         "LevelDifference": 0,
         "Probability": 1.0,
-        "Amount": 2.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_boss_twin_bow",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
       }
@@ -24285,7 +24493,7 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_knight_shogun",
+        "NameId": "pig_zombie_jiangshi",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -24293,7 +24501,7 @@
         "ForcePercent": false
       },
       {
-        "NameId": "pig_ninja_master",
+        "NameId": "pig_ghost_willowhisp",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -24310,6 +24518,14 @@
       },
       {
         "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -24452,7 +24668,7 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_knight_shogun",
+        "NameId": "pig_zombie_jiangshi",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -24460,7 +24676,7 @@
         "ForcePercent": false
       },
       {
-        "NameId": "pig_ninja_master",
+        "NameId": "pig_ghost_willowhisp",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -24477,6 +24693,14 @@
       },
       {
         "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -33657,6 +33881,41 @@
     ]
   },
   {
+    "NameId": "summon_pigmies",
+    "Type": 1,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_pigmies_forest",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_shooters",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_ice",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
     "NameId": "summon_popsicle",
     "Type": 1,
     "VictoryCondition": {
@@ -35110,7 +35369,7 @@
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
-        "Unique": false,
+        "Unique": true,
         "ForcePercent": false
       },
       {

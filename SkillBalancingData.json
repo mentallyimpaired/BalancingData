@@ -4236,9 +4236,9 @@
     "TargetCulling": null
   },
   {
-    "NameId": "pig_attack_ninja_boss",
+    "NameId": "pig_attack_ninja_boss_01",
     "AssetId": "WeakSpot",
-    "LocaId": "pig_attack_ninja_boss",
+    "LocaId": "pig_attack_ninja_boss_01",
     "SkillParameters": {
       "damage_in_percent": 100.0,
       "attack_count": 3.0,
@@ -4247,6 +4247,29 @@
     },
     "SkillTemplateType": "AttackWithIncreaseDamageReceived",
     "EffectDuration": 2,
+    "TargetType": 1,
+    "EffectType": 2,
+    "TargetingBehavior": 0,
+    "TargetAlreadyAffectedTargets": true,
+    "TargetSelfPossible": true,
+    "IconAssetId": "AttackCurse",
+    "IconAtlasId": "Skills_Pigs_01",
+    "EffectIconAtlasId": "Skills_Pigs_01",
+    "EffectIconAssetId": "AttackCurse",
+    "TargetCulling": null
+  },
+  {
+    "NameId": "pig_attack_ninja_boss_02",
+    "AssetId": "Volley",
+    "LocaId": "pig_attack_ninja_boss_02",
+    "SkillParameters": {
+      "damage_in_percent": 100.0,
+      "chance": 100.0,
+      "volley_in_percent": 40.0,
+	  "all": 1.0
+    },
+    "SkillTemplateType": "AttackAndApplyVolleySkill",
+    "EffectDuration": 3,
     "TargetType": 1,
     "EffectType": 2,
     "TargetingBehavior": 0,
@@ -6619,6 +6642,50 @@
     "IconAtlasId": "Skills_Pigs_01",
     "EffectIconAtlasId": "Skills_Pigs_01",
     "EffectIconAssetId": "AttackCurse",
+    "TargetCulling": null
+  },
+  {
+    "NameId": "pig_attack_shaman_brute_boss",
+    "AssetId": "BadMojo",
+    "LocaId": "pig_attack_shaman_brute_boss",
+    "SkillParameters": {
+      "damage_in_percent": 100.0,
+      "chance": 100.0,
+      "healing_debuff": 65.0,
+      "all": 1.0,
+	  "charge": 2.0
+    },
+    "SkillTemplateType": "AttackAndApplyHealingDebuffSkill",
+    "EffectDuration": 3,
+    "TargetType": 1,
+    "EffectType": 2,
+    "TargetingBehavior": 0,
+    "TargetAlreadyAffectedTargets": true,
+    "TargetSelfPossible": false,
+    "IconAssetId": "AttackCurse",
+    "IconAtlasId": "Skills_Pigs_01",
+    "EffectIconAtlasId": "Skills_Pigs_01",
+    "EffectIconAssetId": "AttackCurse",
+    "TargetCulling": null
+  },
+  {
+    "NameId": "pig_support_shaman_brute_boss",
+    "AssetId": "Hoard",
+    "LocaId": "pig_support_shaman_brute_boss",
+    "SkillParameters": {
+      "summon_pigmies": 1.0
+    },
+    "SkillTemplateType": "SummonCombatant",
+    "EffectDuration": 0,
+    "TargetType": 2,
+    "EffectType": 1,
+    "TargetingBehavior": 0,
+    "TargetAlreadyAffectedTargets": true,
+    "TargetSelfPossible": true,
+    "IconAssetId": "Reinforcements",
+    "IconAtlasId": "Skills_Pigs_01",
+    "EffectIconAtlasId": "Skills_Pigs_01",
+    "EffectIconAssetId": "Reinforcements",
     "TargetCulling": null
   },
   {

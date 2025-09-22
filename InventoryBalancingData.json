@@ -985,7 +985,8 @@
   {
     "NameId": "pig_shaman_brute",
     "DefaultInventoryContent": {
-      "pig_weapon_shaman_totem_staff_ice_01": 1
+      "pig_weapon_shaman_totem_staff_ice_01": 1,
+	  "headgear_shaman_cave": 1
     },
     "InitializingLevel": 0
   },
@@ -1518,6 +1519,20 @@
     "NameId": "pig_ninja_black_boss",
     "DefaultInventoryContent": {
       "headgear_ninja_red": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
+    "NameId": "pig_ninja_boss_twin_01",
+    "DefaultInventoryContent": {
+      "pig_weapon_ninja_kill_bill_katana_01": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
+    "NameId": "pig_ninja_boss_twin_02",
+    "DefaultInventoryContent": {
+      "pig_weapon_ninja_asian_bow_01": 1
     },
     "InitializingLevel": 0
   },

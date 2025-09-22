@@ -7896,16 +7896,16 @@
     "IgnoreDifficulty": false
   },
   {
-    "NameId": "pig_ninja_boss_twin",
+    "NameId": "pig_ninja_boss_twin_sword",
     "AssetId": "NinjaPig",
     "LocaId": "pig_ninja_boss_twin",
-    "DefaultInventoryNameId": "pig_ninja_black_01",
+    "DefaultInventoryNameId": "pig_ninja_boss_twin_01",
     "BaseHealth": 400,
     "BaseAttack": 10,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
-      "pig_attack_ninja_boss",
+      "pig_attack_ninja_boss_01",
       "pig_support_ninja_boss"
     ],
     "SkillCombos": [
@@ -7913,15 +7913,57 @@
         "Percentage": 75.0,
         "ComboChain": [
           "pig_support_ninja_boss",
-		  "pig_attack_ninja_boss",
-		  "pig_attack_ninja_boss",
-		  "pig_attack_ninja_boss"
+		  "pig_attack_ninja_boss_01",
+		  "pig_attack_ninja_boss_01",
+		  "pig_attack_ninja_boss_01"
         ]
       },
       {
         "Percentage": 25.0,
         "ComboChain": [
-          "pig_attack_ninja_boss"
+          "pig_attack_ninja_boss_01"
+        ]
+      }
+    ],
+    "SizeType": 1,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig_boss_01_defeated_exp": 1,
+      "loot_pig_boss_01_defeated_gold": 1,
+      "loot_pigsmall_defeated_mastery": 1
+    },
+    "SizeScale": 1.3,
+    "PigStrength": 10,
+    "PassiveSkillNameId": "pig_passive_fastness",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_ninja_boss_twin_bow",
+    "AssetId": "NinjaPig",
+    "LocaId": "pig_ninja_boss_twin",
+    "DefaultInventoryNameId": "pig_ninja_boss_twin_02",
+    "BaseHealth": 400,
+    "BaseAttack": 10,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_ninja_boss_02",
+      "pig_support_ninja_boss"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 75.0,
+        "ComboChain": [
+          "pig_support_ninja_boss",
+		  "pig_attack_ninja_boss_02",
+		  "pig_attack_ninja_boss_02",
+		  "pig_attack_ninja_boss_02"
+        ]
+      },
+      {
+        "Percentage": 25.0,
+        "ComboChain": [
+          "pig_attack_ninja_boss_02"
         ]
       }
     ],
@@ -8013,7 +8055,7 @@
     "AssetId": "NinjaPig",
     "LocaId": "pig_ninja_master_boss",
     "DefaultInventoryNameId": "pig_ninja_master_01",
-    "BaseHealth": 600,
+    "BaseHealth": 850,
     "BaseAttack": 40,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -8047,7 +8089,7 @@
     "AssetId": "NinjaPig",
     "LocaId": "pig_ninja_master_boss",
     "DefaultInventoryNameId": "pig_ninja_master_01",
-    "BaseHealth": 600,
+    "BaseHealth": 850,
     "BaseAttack": 40,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -9408,6 +9450,40 @@
     },
     "SizeScale": 1.2,
     "PigStrength": 7,
+    "PassiveSkillNameId": "pig_passive_wildling",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_shaman_brute_boss",
+    "AssetId": "PigShaman",
+    "LocaId": "pig_shaman_brute_boss",
+    "DefaultInventoryNameId": "pig_shaman_brute",
+    "BaseHealth": 1000,
+    "BaseAttack": 50,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_shaman_brute_boss",
+      "pig_support_shaman_brute_boss"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 100.0,
+        "ComboChain": [
+          "pig_support_shaman_brute_boss",
+          "pig_attack_shaman_brute_boss"
+        ]
+      }
+    ],
+    "SizeType": 2,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig10_defeated_gold": 1,
+      "loot_pig10_defeated_exp": 1,
+      "loot_pigboss_defeated_mastery": 1
+    },
+    "SizeScale": 1.4,
+    "PigStrength": 10,
     "PassiveSkillNameId": "pig_passive_wildling",
     "IgnoreDifficulty": false
   },

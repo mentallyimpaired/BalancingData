@@ -2379,7 +2379,7 @@
     "HotspotContents": {
       "loot_treasurechest_054_05": 1
     },
-    "ZoneLocaIdent": "zone_northern_slingshot_woods_wave",
+    "ZoneLocaIdent": "zone_northern_slingshot_woods",
     "ZoneStageIndex": 3,
     "EnterRequirements": null,
     "CooldownInSeconds": 0,
