@@ -11120,6 +11120,86 @@
     "LocaId": ""
   },
   {
+    "NameId": "battle_shiny_sand",
+    "LootTableEntries": [
+      {
+        "NameId": "ingredient_shiny_sand",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 3,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "ingredient_sea_berry",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "ingredient_shiny_sand",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "ingredient_water",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "ingredient_shiny_sand",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "ingredient_sea_berry",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "ingredient_shiny_sand",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "ingredient_water",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      }
+    ],
+    "Type": 3,
+    "PrefabId": "",
+    "LocaId": ""
+  },
+  {
     "NameId": "battle_banana",
     "LootTableEntries": [
       {
@@ -17339,7 +17419,16 @@
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
-        "BaseValue": 100,
+        "BaseValue": 250,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+	  {
+        "NameId": "lucky_coin",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 20,
         "Span": 0,
         "CurrentPlayerLevelDelta": 0
       }
@@ -104199,7 +104288,87 @@
     "LocaId": ""
   },
   {
-    "NameId": "wheel_cavedeep",
+    "NameId": "wheel_expansion",
+    "LootTableEntries": [
+      {
+        "NameId": "gold",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 200,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "lucky_coin",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 2,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "friendship_essence",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "mastery_all",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 300,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "gold",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 100,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "mastery_all",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 300,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "friendship_essence",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 1,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      },
+      {
+        "NameId": "lucky_coin",
+        "LevelMinIncl": 0,
+        "LevelMaxExcl": 0,
+        "Probability": 1.0,
+        "BaseValue": 2,
+        "Span": 0,
+        "CurrentPlayerLevelDelta": 0
+      }
+    ],
+    "Type": 3,
+    "PrefabId": "",
+    "LocaId": ""
+  },
+  {
+    "NameId": "wheel_expansion_hard",
     "LootTableEntries": [
       {
         "NameId": "gold",
@@ -104229,7 +104398,7 @@
         "CurrentPlayerLevelDelta": 0
       },
       {
-        "NameId": "resource_rainbow_shell",
+        "NameId": "lucky_coin",
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
@@ -104247,7 +104416,7 @@
         "CurrentPlayerLevelDelta": 0
       },
       {
-        "NameId": "ingredient_pig_cherries",
+        "NameId": "lucky_coin",
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
@@ -104279,10 +104448,10 @@
     "LocaId": ""
   },
   {
-    "NameId": "wheel_cavedeep_boss",
+    "NameId": "wheel_expansion_hard_boss",
     "LootTableEntries": [
       {
-        "NameId": "treasure_cavedeep",
+        "NameId": "treasure_expansion_boss",
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
@@ -104309,7 +104478,7 @@
         "CurrentPlayerLevelDelta": 0
       },
       {
-        "NameId": "resource_rainbow_shell",
+        "NameId": "lucky_coin",
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
@@ -104327,7 +104496,7 @@
         "CurrentPlayerLevelDelta": 0
       },
       {
-        "NameId": "ingredient_pig_cherries",
+        "NameId": "lucky_coin",
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
@@ -104359,7 +104528,7 @@
     "LocaId": ""
   },
   {
-    "NameId": "treasure_cavedeep",
+    "NameId": "treasure_expansion_boss",
     "LootTableEntries": [
       {
         "NameId": "friendship_essence",
@@ -104606,7 +104775,7 @@
     "LocaId": ""
   },
   {
-    "NameId": "loot_cave_boss_05",
+    "NameId": "loot_expansion_boss",
     "LootTableEntries": [
       {
         "NameId": "gold",
@@ -104631,7 +104800,7 @@
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
-        "BaseValue": 50,
+        "BaseValue": 75,
         "Span": 0,
         "CurrentPlayerLevelDelta": 0
       },
@@ -104640,7 +104809,7 @@
         "LevelMinIncl": 0,
         "LevelMaxExcl": 0,
         "Probability": 1.0,
-        "BaseValue": 30,
+        "BaseValue": 50,
         "Span": 0,
         "CurrentPlayerLevelDelta": 0
       },

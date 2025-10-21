@@ -809,7 +809,7 @@
   {
     "NameId": "EventPigPowerlevelModifier",
     "StringValue": "",
-    "FloatValue": 3.0,
+    "FloatValue": 2.0,
     "RequirementValue": null,
     "FloatlistValue": null,
     "BoolValue": false

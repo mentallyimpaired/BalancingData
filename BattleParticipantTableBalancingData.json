@@ -1787,7 +1787,7 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_minion_corporal_boss",
+        "NameId": "pig_minion_homeless_boss",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -1806,7 +1806,7 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_minion_corporal_boss_02",
+        "NameId": "pig_minion_homeless_boss",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -5759,23 +5759,7 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_minion_soldier",
-        "LevelDifference": 0,
-        "Probability": 1.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_corporal_boss",
-        "LevelDifference": 0,
-        "Probability": 1.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_soldier",
+        "NameId": "pig_minion_homeless_boss",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -5786,7 +5770,7 @@
   },
   {
     "NameId": "bpart_037_3",
-    "Type": 1,
+    "Type": 0,
     "VictoryCondition": {
       "Type": 0,
       "NameId": "",
@@ -5794,23 +5778,7 @@
     },
     "BattleParticipants": [
       {
-        "NameId": "pig_minion_soldier",
-        "LevelDifference": 0,
-        "Probability": 1.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_corporal_boss_02",
-        "LevelDifference": 0,
-        "Probability": 1.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_soldier",
+        "NameId": "pig_minion_homeless_boss",
         "LevelDifference": 0,
         "Probability": 1.0,
         "Amount": 1.0,
@@ -33881,6 +33849,25 @@
     ]
   },
   {
+    "NameId": "summon_pigmies_china_expansion",
+    "Type": 1,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
     "NameId": "summon_pigmies",
     "Type": 1,
     "VictoryCondition": {
@@ -34245,6 +34232,73 @@
         "NameId": "pig_bomb_ninja",
         "LevelDifference": 0,
         "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "summon_ninja_expansion_boss",
+    "Type": 1,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 5.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 4.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 2.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 2.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_bomb_ninja",
+        "LevelDifference": 0,
+        "Probability": 2.0,
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
@@ -38598,14 +38652,6 @@
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_apprentice",
-        "LevelDifference": 0,
-        "Probability": 50.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
       }
     ]
   },
@@ -38625,6 +38671,14 @@
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": true
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 25.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
       },
       {
         "NameId": "pig_minion_lanternpig",
@@ -38657,14 +38711,6 @@
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
-      },
-      {
-        "NameId": "pig_minion_apprentice",
-        "LevelDifference": 0,
-        "Probability": 50.0,
-        "Amount": 1.0,
-        "Unique": false,
-        "ForcePercent": false
       }
     ]
   },
@@ -38680,10 +38726,26 @@
       {
         "NameId": "pig_caster_rooster",
         "LevelDifference": 0,
-        "Probability": 100.0,
+        "Probability": 50.0,
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": true
+      },
+	  {
+        "NameId": "pig_brute_battering",
+        "LevelDifference": 0,
+        "Probability": 50.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": true
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 50.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
       },
       {
         "NameId": "pig_minion_lanternpig",
@@ -38694,17 +38756,17 @@
         "ForcePercent": false
       },
       {
-        "NameId": "pig_minion_apprentice",
+        "NameId": "pig_minion_pyrobolist",
         "LevelDifference": 0,
-        "Probability": 50.0,
+        "Probability": 30.0,
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
       },
-      {
-        "NameId": "pig_minion_pyrobolist",
+	  {
+        "NameId": "pig_pigmies_dragonplayer",
         "LevelDifference": 0,
-        "Probability": 30.0,
+        "Probability": 50.0,
         "Amount": 1.0,
         "Unique": false,
         "ForcePercent": false
@@ -69609,6 +69671,2357 @@
         "Probability": 1.0,
         "Amount": 1.0,
         "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_01_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_01_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_01_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_02_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_02_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_02_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_03_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_03_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_04_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_04_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_04_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_05_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_05_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_05_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_06_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_06_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_06_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_07_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_07_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun_boss_02",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_08_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_08_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_08_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_09_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_09_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_09_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_10_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_10_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_10_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_11_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_11_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_12",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi_expansion_boss",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_13_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+      {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_13_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_13_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_14_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_14_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_14_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_15_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_15_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_15_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_16_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_16_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_16_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_17_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_17_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_17_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_18_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_18_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_boss_twin_sword_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_boss_twin_bow_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_19_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_19_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_19_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_20_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_20_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_20_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_21_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_21_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_21_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_22_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 5.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_22_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 5.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_22_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 3.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_23_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_23_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_23_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_24_1",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ninja_black",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_red",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_bowman",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_24_2",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_moustache_mandarin",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lancer",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_24_3",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_knight_shogun",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_24_4",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_caster_rooster_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_zombie_jiangshi",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ghost_willowhisp",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_24_5",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 0,
+      "NameId": "",
+      "Value": 0.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_brute_battering_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_minion_lanternpig_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": false,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_pigmies_dragonplayer_expansion",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 2.0,
+        "Unique": false,
+        "ForcePercent": false
+      }
+    ]
+  },
+  {
+    "NameId": "bpart_expansion_bamboo_forest_25",
+    "Type": 0,
+    "VictoryCondition": {
+      "Type": 1,
+      "NameId": "pig_ninja_master_expansion_boss",
+      "Value": 1.0
+    },
+    "BattleParticipants": [
+      {
+        "NameId": "pig_ghost_banshee_expansion_boss",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_knight_shogun_expansion_boss",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
+        "ForcePercent": false
+      },
+	  {
+        "NameId": "pig_ninja_master_expansion_boss",
+        "LevelDifference": 0,
+        "Probability": 1.0,
+        "Amount": 1.0,
+        "Unique": true,
         "ForcePercent": false
       }
     ]

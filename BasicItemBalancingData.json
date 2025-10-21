@@ -568,6 +568,14 @@
     "SetAsNewInShop": 0
   },
   {
+    "NameId": "unlock_expansion_campaign",
+    "ItemType": 7,
+    "AssetBaseId": "pig_wiz_pig_01",
+    "LocaBaseId": "unlock_expansion_campaign",
+    "SortPriority": 1,
+    "SetAsNewInShop": 0
+  },
+  {
     "NameId": "unlock_chronicle_cave",
     "ItemType": 7,
     "AssetBaseId": "ChronicleCave",
@@ -2616,10 +2624,10 @@
     "SetAsNewInShop": 0
   },
   {
-    "NameId": "popup_loot_cave",
+    "NameId": "popup_loot_expansion_boss",
     "ItemType": 7,
-    "AssetBaseId": "MasteryConversion",
-    "LocaBaseId": "popup_loot_cave",
+    "AssetBaseId": "pig_minion_mccool",
+    "LocaBaseId": "popup_loot_expansion_boss",
     "SortPriority": 1,
     "SetAsNewInShop": 0
   },

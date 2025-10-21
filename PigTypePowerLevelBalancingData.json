@@ -17,7 +17,7 @@
   },
   {
     "NameId": "PigMage",
-    "PowerLevelWeight": 30.0
+    "PowerLevelWeight": 60.0
   },
   {
     "NameId": "PigNinja",
@@ -45,7 +45,7 @@
   },
   {
     "NameId": "ZombiePig",
-    "PowerLevelWeight": 50.0
+    "PowerLevelWeight": 60.0
   },
   {
     "NameId": "PigDrone",
@@ -109,7 +109,7 @@
   },
   {
     "NameId": "PigMage_hard",
-    "PowerLevelWeight": 30.0
+    "PowerLevelWeight": 60.0
   },
   {
     "NameId": "PigNinja_hard",
@@ -137,7 +137,7 @@
   },
   {
     "NameId": "ZombiePig_hard",
-    "PowerLevelWeight": 50.0
+    "PowerLevelWeight": 60.0
   },
   {
     "NameId": "PigDrone_hard",

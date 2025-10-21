@@ -88,5 +88,15 @@
     "NameId": "KeyArtwork_Winter_2020",
     "StartTimestamp": 1606780800,
     "EndTimestamp": 1583020800
-  }
+  },
+  {
+    "NameId": "KeyArtwork_Halloween_2025",
+    "StartTimestamp": 1759251600,
+    "EndTimestamp": 1761930000
+  },
+  {
+    "NameId": "KeyArtwork_Winter_2025",
+    "StartTimestamp": 1764522000,
+    "EndTimestamp": 1767200400
+  },
 ]

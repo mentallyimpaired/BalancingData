@@ -5380,7 +5380,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": null,
@@ -5772,7 +5772,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": null,
@@ -5884,7 +5884,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": null,
@@ -5940,7 +5940,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": null,
@@ -6052,7 +6052,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": null,
@@ -6108,7 +6108,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -6169,8 +6169,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -6247,7 +6247,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -6308,8 +6308,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -6386,7 +6386,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -6447,8 +6447,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -6525,7 +6525,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -6586,8 +6586,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -6659,7 +6659,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -6720,8 +6720,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -6798,7 +6798,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -6859,8 +6859,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -6937,7 +6937,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -6998,8 +6998,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7076,7 +7076,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -7137,8 +7137,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7215,7 +7215,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -7276,8 +7276,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7354,7 +7354,7 @@
       {
         "RequirementType": 1,
         "NameId": "lucky_coin",
-        "Value": 130.0
+        "Value": 100.0
       }
     ],
     "ShowRequirements": [
@@ -7420,8 +7420,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       }
     ],
     "ShowRequirements": [
@@ -7492,8 +7492,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7569,8 +7569,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7646,8 +7646,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7723,8 +7723,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7800,8 +7800,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7877,8 +7877,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -7954,8 +7954,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8031,8 +8031,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8108,8 +8108,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8185,8 +8185,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8262,8 +8262,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8339,8 +8339,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8416,8 +8416,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8493,8 +8493,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8570,8 +8570,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8647,8 +8647,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8724,8 +8724,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8801,8 +8801,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8878,8 +8878,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -8955,8 +8955,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -9032,8 +9032,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -9099,8 +9099,8 @@
       },
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 130.0
+        "NameId": "gold",
+        "Value": 4000.0
       },
       {
         "RequirementType": 31,
@@ -23641,13 +23641,13 @@
     "ExclusiveOffer": false,
     "Level": 1,
     "OfferContents": {
-      "lucky_coin": 75
+      "lucky_coin": 5
     },
     "SortPriority": 0,
-    "SlotId": 7,
+    "SlotId": 5,
     "Category": "shop_global_premium_soft",
     "NameId": "offer_lucky_coins_1",
-    "AssetId": "ShopOffer_LuckyCoins_3",
+    "AssetId": "ShopOffer_LuckyCoins_2",
     "LocaId": "offer_lucky_coins_01",
     "DiscountValue": 0,
     "DiscountRequirements": null,
@@ -23672,7 +23672,7 @@
       {
         "RequirementType": 1,
         "NameId": "gold",
-        "Value": 8000.0
+        "Value": 350.0
       }
     ],
     "ShowRequirements": null,
@@ -23687,14 +23687,14 @@
     "ExclusiveOffer": false,
     "Level": 1,
     "OfferContents": {
-      "gold": 500
+      "lucky_coin": 25
     },
-    "SortPriority": 1,
-    "SlotId": 8,
+    "SortPriority": 0,
+    "SlotId": 6,
     "Category": "shop_global_premium_soft",
-    "NameId": "offer_coins_few",
-    "AssetId": "ShopOffer_Snoutlings_1",
-    "LocaId": "offer_snoutlings_01",
+    "NameId": "offer_lucky_coins_2",
+    "AssetId": "ShopOffer_LuckyCoins_3",
+    "LocaId": "offer_lucky_coins_02",
     "DiscountValue": 0,
     "DiscountRequirements": null,
     "DiscountStartDate": 0,
@@ -23717,8 +23717,8 @@
     "BuyRequirements": [
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 10.0
+        "NameId": "gold",
+        "Value": 1500.0
       }
     ],
     "ShowRequirements": null,
@@ -23731,16 +23731,16 @@
     "DiscountPrice": 0,
     "DisplayAfterPurchase": false,
     "ExclusiveOffer": false,
-    "Level": 2,
+    "Level": 1,
     "OfferContents": {
-      "gold": 3000
+      "lucky_coin": 75
     },
-    "SortPriority": 1,
-    "SlotId": 9,
+    "SortPriority": 0,
+    "SlotId": 7,
     "Category": "shop_global_premium_soft",
-    "NameId": "offer_coins_medium",
-    "AssetId": "ShopOffer_Snoutlings_2",
-    "LocaId": "offer_snoutlings_02",
+    "NameId": "offer_lucky_coins_3",
+    "AssetId": "ShopOffer_LuckyCoins_5",
+    "LocaId": "offer_lucky_coins_03",
     "DiscountValue": 0,
     "DiscountRequirements": null,
     "DiscountStartDate": 0,
@@ -23753,7 +23753,7 @@
     "SpecialOfferLocaId": null,
     "DisplayAsLarge": false,
     "ShowDiscountPopup": false,
-    "PopupLoca": "",
+    "PopupLoca": "offer_halloween2016",
     "PopupIconId": null,
     "PopupAtlasId": null,
     "DiscountCooldown": 0,
@@ -23763,54 +23763,8 @@
     "BuyRequirements": [
       {
         "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 50.0
-      }
-    ],
-    "ShowRequirements": null,
-    "SpecialOfferPrio": 0,
-    "SpeechBubbleLoca": null,
-    "AlwaysShowSpeechBubble": false,
-    "HideUnlessOnSale": false
-  },
-  {
-    "DiscountPrice": 0,
-    "DisplayAfterPurchase": false,
-    "ExclusiveOffer": false,
-    "Level": 3,
-    "OfferContents": {
-      "gold": 16500
-    },
-    "SortPriority": 1,
-    "SlotId": 10,
-    "Category": "shop_global_premium_soft",
-    "NameId": "offer_coins_lots",
-    "AssetId": "ShopOffer_Snoutlings_3",
-    "LocaId": "offer_snoutlings_03",
-    "DiscountValue": 0,
-    "DiscountRequirements": null,
-    "DiscountStartDate": 0,
-    "DiscountEndDate": 0,
-    "DiscountDuration": 0,
-    "UniqueOffer": false,
-    "AtlasNameId": "ShopAndSocialElements",
-    "SpecialOfferBackgroundColor": null,
-    "SpecialOfferLabelColor": null,
-    "SpecialOfferLocaId": null,
-    "DisplayAsLarge": false,
-    "ShowDiscountPopup": false,
-    "PopupLoca": "",
-    "PopupIconId": null,
-    "PopupAtlasId": null,
-    "DiscountCooldown": 0,
-    "Duration": 0,
-    "StartDate": 0,
-    "EndDate": 0,
-    "BuyRequirements": [
-      {
-        "RequirementType": 1,
-        "NameId": "lucky_coin",
-        "Value": 250.0
+        "NameId": "gold",
+        "Value": 4000.0
       }
     ],
     "ShowRequirements": null,

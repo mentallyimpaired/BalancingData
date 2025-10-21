@@ -19,7 +19,7 @@
     ],
     "FirstChronicleCaveHotspotId": "hotspot_01_dungeon_000",
     "LastChronicleCaveHotspotId": "hotspot_10_dungeon_000",
-    "BossNameId": "pig_shaman_shaman",
+    "BossNameId": "pig_shaman_dark",
     "EnvironmentalEffects": {
       "Birds": "env_cc_floor_02"
     }
@@ -419,7 +419,7 @@
     ],
     "FirstChronicleCaveHotspotId": "hotspot_01_dungeon_016",
     "LastChronicleCaveHotspotId": "hotspot_10_dungeon_016",
-    "BossNameId": "pig_shaman_shaman",
+    "BossNameId": "pig_shaman_dark",
     "EnvironmentalEffects": {
       "Pigs": "env_cc_floor_05_02"
     }

@@ -2101,6 +2101,46 @@
     "IgnoreDifficulty": false
   },
   {
+    "NameId": "pig_caster_rooster_expansion",
+    "AssetId": "PigMage",
+    "LocaId": "pig_caster_rooster",
+    "DefaultInventoryNameId": "pig_caster_rooster_01",
+    "BaseHealth": 245,
+    "BaseAttack": 16,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_caster_rooster_expansion",
+      "pig_support_caster_pyropig"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 40.0,
+        "ComboChain": [
+          "pig_attack_caster_rooster_expansion"
+        ]
+      },
+      {
+        "Percentage": 60.0,
+        "ComboChain": [
+          "pig_support_caster_pyropig",
+          "pig_attack_caster_rooster_expansion"
+        ]
+      }
+    ],
+    "SizeType": 2,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig6_defeated_gold": 1,
+      "loot_pig6_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.0,
+    "PigStrength": 5,
+    "PassiveSkillNameId": "pig_passive_caster_rooster",
+    "IgnoreDifficulty": false
+  },
+  {
     "NameId": "pig_ccboss_01",
     "AssetId": "MinionPig",
     "LocaId": "pig_ccboss_01",
@@ -5219,6 +5259,41 @@
     "IgnoreDifficulty": false
   },
   {
+    "NameId": "pig_minion_homeless_boss",
+    "AssetId": "MinionPig",
+    "LocaId": "pig_minion_homeless_boss",
+    "DefaultInventoryNameId": "pig_minion_homeless_01",
+    "BaseHealth": 850,
+    "BaseAttack": 85,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_minion_homeless_boss",
+      "pig_support_minion_homeless_boss"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 100.0,
+        "ComboChain": [
+          "pig_attack_minion_homeless_boss",
+          "pig_attack_minion_homeless_boss",
+          "pig_support_minion_homeless_boss"
+        ]
+      }
+    ],
+    "SizeType": 0,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig_boss_01_defeated_gold": 1,
+      "loot_pig_boss_01_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.5,
+    "PigStrength": 6,
+    "PassiveSkillNameId": "pig_passive_scared",
+    "IgnoreDifficulty": false
+  },
+  {
     "NameId": "pig_minion_farmer",
     "AssetId": "MinionPig",
     "LocaId": "pig_minion_farmer",
@@ -5891,18 +5966,21 @@
     "AssetId": "MinionPig",
     "LocaId": "pig_minion_rogue_miniboss",
     "DefaultInventoryNameId": "pig_minion_rogue_miniboss",
-    "BaseHealth": 750,
+    "BaseHealth": 850,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
+      "pig_support_rogue_miniboss",
       "pig_support_rogue_miniboss_02"
     ],
     "SkillCombos": [
       {
         "Percentage": 100.0,
         "ComboChain": [
-          "pig_support_rogue_miniboss_02"
+          "pig_support_rogue_miniboss",
+		  "pig_support_rogue_miniboss_02",
+		  "pig_support_rogue_miniboss_02"
         ]
       }
     ],
@@ -5915,7 +5993,7 @@
     },
     "SizeScale": 1.33,
     "PigStrength": 3,
-    "PassiveSkillNameId": "pig_passive_annoying",
+    "PassiveSkillNameId": "pig_passive_annoying_02",
     "IgnoreDifficulty": false
   },
   {
@@ -5923,18 +6001,21 @@
     "AssetId": "MinionPig",
     "LocaId": "pig_minion_rogue_miniboss",
     "DefaultInventoryNameId": "pig_minion_rogue_miniboss",
-    "BaseHealth": 750,
+    "BaseHealth": 850,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
+      "pig_support_rogue_miniboss",
       "pig_support_rogue_miniboss_02"
     ],
     "SkillCombos": [
       {
         "Percentage": 100.0,
         "ComboChain": [
-          "pig_support_rogue_miniboss_02"
+          "pig_support_rogue_miniboss",
+		  "pig_support_rogue_miniboss_02",
+		  "pig_support_rogue_miniboss_02"
         ]
       }
     ],
@@ -5947,7 +6028,7 @@
     },
     "SizeScale": 1.33,
     "PigStrength": 3,
-    "PassiveSkillNameId": "pig_passive_annoying",
+    "PassiveSkillNameId": "pig_passive_annoying_02",
     "IgnoreDifficulty": false
   },
   {
@@ -7980,6 +8061,90 @@
     "IgnoreDifficulty": false
   },
   {
+    "NameId": "pig_ninja_boss_twin_sword_expansion",
+    "AssetId": "NinjaPig",
+    "LocaId": "pig_ninja_boss_twin",
+    "DefaultInventoryNameId": "pig_ninja_boss_twin_01",
+    "BaseHealth": 500,
+    "BaseAttack": 12,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_ninja_boss_01",
+      "pig_support_ninja_boss"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 75.0,
+        "ComboChain": [
+          "pig_support_ninja_boss",
+		  "pig_attack_ninja_boss_01",
+		  "pig_attack_ninja_boss_01",
+		  "pig_attack_ninja_boss_01"
+        ]
+      },
+      {
+        "Percentage": 25.0,
+        "ComboChain": [
+          "pig_attack_ninja_boss_01"
+        ]
+      }
+    ],
+    "SizeType": 1,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig_boss_01_defeated_exp": 1,
+      "loot_pig_boss_01_defeated_gold": 1,
+      "loot_pigsmall_defeated_mastery": 1
+    },
+    "SizeScale": 1.3,
+    "PigStrength": 10,
+    "PassiveSkillNameId": "pig_passive_fastness_02",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_ninja_boss_twin_bow_expansion",
+    "AssetId": "NinjaPig",
+    "LocaId": "pig_ninja_boss_twin",
+    "DefaultInventoryNameId": "pig_ninja_boss_twin_02",
+    "BaseHealth": 500,
+    "BaseAttack": 12,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_ninja_boss_02",
+      "pig_support_ninja_boss"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 75.0,
+        "ComboChain": [
+          "pig_support_ninja_boss",
+		  "pig_attack_ninja_boss_02",
+		  "pig_attack_ninja_boss_02",
+		  "pig_attack_ninja_boss_02"
+        ]
+      },
+      {
+        "Percentage": 25.0,
+        "ComboChain": [
+          "pig_attack_ninja_boss_02"
+        ]
+      }
+    ],
+    "SizeType": 1,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig_boss_01_defeated_exp": 1,
+      "loot_pig_boss_01_defeated_gold": 1,
+      "loot_pigsmall_defeated_mastery": 1
+    },
+    "SizeScale": 1.3,
+    "PigStrength": 10,
+    "PassiveSkillNameId": "pig_passive_fastness_02",
+    "IgnoreDifficulty": false
+  },
+  {
     "NameId": "pig_ninja_bowman",
     "AssetId": "NinjaPig",
     "LocaId": "pig_ninja_bowman",
@@ -8017,7 +8182,7 @@
     "LocaId": "pig_ninja_master",
     "DefaultInventoryNameId": "pig_ninja_master_01",
     "BaseHealth": 190,
-    "BaseAttack": 30,
+    "BaseAttack": 25,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
@@ -8334,7 +8499,7 @@
     "LocaId": "pig_ninja_master",
     "DefaultInventoryNameId": "pig_ninja_master_01",
     "BaseHealth": 190,
-    "BaseAttack": 30,
+    "BaseAttack": 25,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
     "SkillNameIds": [
@@ -9642,7 +9807,7 @@
     "NameId": "pig_shaman_shaman_cc_boss",
     "AssetId": "PigShaman",
     "LocaId": "pig_shaman_shaman_cc_boss",
-    "DefaultInventoryNameId": "pig_shaman_shaman_01",
+    "DefaultInventoryNameId": "pig_shaman_dark_01",
     "BaseHealth": 1845,
     "BaseAttack": 25,
     "PerLevelHealth": 0,
@@ -9681,7 +9846,7 @@
     "NameId": "pig_shaman_shaman_cc_boss_02",
     "AssetId": "PigShaman",
     "LocaId": "pig_shaman_shaman_cc_boss",
-    "DefaultInventoryNameId": "pig_shaman_shaman_01",
+    "DefaultInventoryNameId": "pig_shaman_dark_01",
     "BaseHealth": 1845,
     "BaseAttack": 25,
     "PerLevelHealth": 0,
@@ -9713,6 +9878,40 @@
     },
     "SizeScale": 1.5,
     "PigStrength": 15,
+    "PassiveSkillNameId": "pig_passive_wildling",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_shaman_dark",
+    "AssetId": "PigShaman",
+    "LocaId": "pig_shaman_shaman",
+    "DefaultInventoryNameId": "pig_shaman_dark_01",
+    "BaseHealth": 250,
+    "BaseAttack": 15,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_shaman_shaman",
+      "pig_support_shaman_shaman"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 100.0,
+        "ComboChain": [
+          "pig_attack_shaman_shaman",
+          "pig_support_shaman_shaman"
+        ]
+      }
+    ],
+    "SizeType": 1,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig6_defeated_gold": 1,
+      "loot_pig6_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 0.9,
+    "PigStrength": 6,
     "PassiveSkillNameId": "pig_passive_wildling",
     "IgnoreDifficulty": false
   },
@@ -10987,7 +11186,7 @@
     ],
     "SkillCombos": [
       {
-        "Percentage": 75.0,
+        "Percentage": 70.0,
         "ComboChain": [
           "pig_support_zombie_jiangshi",
           "pig_attack_zombie_jiangshi",
@@ -10995,7 +11194,7 @@
         ]
       },
       {
-        "Percentage": 25.0,
+        "Percentage": 30.0,
         "ComboChain": [
           "pig_attack_zombie_jiangshi"
         ]
@@ -11016,7 +11215,7 @@
   {
     "NameId": "pig_zombie_jiangshi_cc_boss",
     "AssetId": "ZombiePig",
-    "LocaId": "pig_zombie_jiangshi_cc_boss",
+    "LocaId": "pig_zombie_jiangshi_boss",
     "DefaultInventoryNameId": "pig_zombie_jiangshi_01",
     "BaseHealth": 1250,
     "BaseAttack": 70,
@@ -11024,6 +11223,40 @@
     "PerLevelAttack": 0,
     "SkillNameIds": [
       "pig_attack_zombie_jiangshi_cc_boss",
+      "pig_support_zombie_jiangshi"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 100.0,
+        "ComboChain": [
+          "pig_support_zombie_jiangshi",
+          "pig_attack_zombie_jiangshi_cc_boss"
+        ]
+      }
+    ],
+    "SizeType": 2,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig6_defeated_gold": 1,
+      "loot_pig6_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.2,
+    "PigStrength": 6,
+    "PassiveSkillNameId": "pig_passive_undead_02",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_zombie_jiangshi_expansion_boss",
+    "AssetId": "ZombiePig",
+    "LocaId": "pig_zombie_jiangshi_boss",
+    "DefaultInventoryNameId": "pig_zombie_jiangshi_01",
+    "BaseHealth": 1000,
+    "BaseAttack": 50,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_zombie_jiangshi_expansion_boss",
       "pig_support_zombie_jiangshi"
     ],
     "SkillCombos": [
@@ -13302,6 +13535,46 @@
     "IgnoreDifficulty": false
   },
   {
+    "NameId": "pig_minion_lanternpig_expansion",
+    "AssetId": "MinionPig",
+    "LocaId": "pig_minion_lanternpig",
+    "DefaultInventoryNameId": "pig_minion_lanternpig_01",
+    "BaseHealth": 135,
+    "BaseAttack": 20,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_minion_lanternpig_expansion",
+      "pig_support_minion_lanternpig_expansion"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 40.0,
+        "ComboChain": [
+          "pig_support_minion_lanternpig_expansion"
+        ]
+      },
+      {
+        "Percentage": 60.0,
+        "ComboChain": [
+          "pig_support_minion_lanternpig_expansion",
+		  "pig_attack_minion_lanternpig_expansion"
+        ]
+      }
+    ],
+    "SizeType": 1,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig4_defeated_gold": 1,
+      "loot_pig4_defeated_exp": 1,
+      "loot_pigsmall_defeated_mastery": 1
+    },
+    "SizeScale": 1.2,
+    "PigStrength": 4,
+    "PassiveSkillNameId": "",
+    "IgnoreDifficulty": false
+  },
+  {
     "NameId": "pig_minion_pyrobolist",
     "AssetId": "MinionPig",
     "LocaId": "pig_minion_pyrobolist",
@@ -13401,6 +13674,45 @@
     "IgnoreDifficulty": false
   },
   {
+    "NameId": "pig_pigmies_dragonplayer_expansion",
+    "AssetId": "Pigmies",
+    "LocaId": "pig_pigmies_dragonplayer",
+    "DefaultInventoryNameId": "pig_pigmies_dragonplayer_01",
+    "BaseHealth": 150,
+    "BaseAttack": 8,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_pigmies_dragonplayer_expansion",
+      "pig_support_pigmies_dragonplayer_expansion"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 80.0,
+        "ComboChain": [
+          "pig_attack_pigmies_dragonplayer_expansion"
+        ]
+      },
+      {
+        "Percentage": 20.0,
+        "ComboChain": [
+          "pig_support_pigmies_dragonplayer_expansion"
+        ]
+      }
+    ],
+    "SizeType": 1,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig4_defeated_gold": 1,
+      "loot_pig4_defeated_exp": 1,
+      "loot_pigsmall_defeated_mastery": 1
+    },
+    "SizeScale": 1.1,
+    "PigStrength": 4,
+    "PassiveSkillNameId": "pig_passive_wildling",
+    "IgnoreDifficulty": false
+  },
+  {
     "NameId": "pig_brute_battering",
     "AssetId": "PigBrute",
     "LocaId": "pig_brute_battering",
@@ -13430,6 +13742,38 @@
     "SizeScale": 1.1,
     "PigStrength": 10,
     "PassiveSkillNameId": "pig_passive_pig_headed",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_brute_battering_expansion",
+    "AssetId": "PigBrute",
+    "LocaId": "pig_brute_battering",
+    "DefaultInventoryNameId": "pig_brute_battering_01",
+    "BaseHealth": 400,
+    "BaseAttack": 25,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_brute_battering"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 100.0,
+        "ComboChain": [
+          "pig_attack_brute_battering"
+        ]
+      }
+    ],
+    "SizeType": 2,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig10_defeated_gold": 1,
+      "loot_pig10_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.1,
+    "PigStrength": 6,
+    "PassiveSkillNameId": "pig_passive_wildling",
     "IgnoreDifficulty": false
   },
   {
@@ -18116,7 +18460,7 @@
     "NameId": "pig_zombie_mummy_spy",
     "AssetId": "ZombiePig",
     "LocaId": "pig_zombie_mummy_spy",
-    "DefaultInventoryNameId": "pig_zombie_mummy_01",
+    "DefaultInventoryNameId": "pig_zombie_troglobite",
     "BaseHealth": 235,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
@@ -18144,7 +18488,7 @@
     "NameId": "pig_zombie_berserk_spy",
     "AssetId": "ZombiePig",
     "LocaId": "pig_zombie_berserk_spy",
-    "DefaultInventoryNameId": "pig_zombie_berserk_01",
+    "DefaultInventoryNameId": "pig_zombie_hunter",
     "BaseHealth": 235,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
@@ -18172,7 +18516,7 @@
     "NameId": "pig_zombie_knight_spy",
     "AssetId": "ZombiePig",
     "LocaId": "pig_zombie_knight_spy",
-    "DefaultInventoryNameId": "pig_zombie_knight_01",
+    "DefaultInventoryNameId": "pig_zombie_blockhead",
     "BaseHealth": 255,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
@@ -18319,7 +18663,7 @@
     "AssetId": "ZombiePig",
     "LocaId": "pig_zombie_hailstorm_boss",
     "DefaultInventoryNameId": "pig_zombie_hailstorm",
-    "BaseHealth": 2069,
+    "BaseHealth": 1469,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18361,8 +18705,8 @@
     "NameId": "pig_zombie_troglobite",
     "AssetId": "ZombiePig",
     "LocaId": "pig_zombie_troglobite",
-    "DefaultInventoryNameId": "pig_zombie_mummy_wet",
-    "BaseHealth": 270,
+    "DefaultInventoryNameId": "pig_zombie_troglobite",
+    "BaseHealth": 260,
     "BaseAttack": 25,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18393,8 +18737,8 @@
     "NameId": "pig_zombie_hunter",
     "AssetId": "ZombiePig",
     "LocaId": "pig_zombie_hunter",
-    "DefaultInventoryNameId": "pig_zombie_berserk_01",
-    "BaseHealth": 270,
+    "DefaultInventoryNameId": "pig_zombie_hunter",
+    "BaseHealth": 260,
     "BaseAttack": 38,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18425,8 +18769,8 @@
     "NameId": "pig_zombie_blockhead",
     "AssetId": "ZombiePig",
     "LocaId": "pig_zombie_blockhead",
-    "DefaultInventoryNameId": "pig_zombie_knight_01",
-    "BaseHealth": 300,
+    "DefaultInventoryNameId": "pig_zombie_blockhead",
+    "BaseHealth": 280,
     "BaseAttack": 27,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18465,7 +18809,7 @@
     "AssetId": "PigMage",
     "LocaId": "pig_caster_brainstorm_boss",
     "DefaultInventoryNameId": "pig_caster_brainstorm",
-    "BaseHealth": 2069,
+    "BaseHealth": 1469,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18499,7 +18843,7 @@
     "AssetId": "PigMage",
     "LocaId": "pig_caster_brainstorm_boss",
     "DefaultInventoryNameId": "pig_caster_brainstorm",
-    "BaseHealth": 2069,
+    "BaseHealth": 1469,
     "BaseAttack": 20,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18534,7 +18878,7 @@
     "AssetId": "PigDrone",
     "LocaId": "pig_drone_heavy_boss",
     "DefaultInventoryNameId": "pig_drone_heavy",
-    "BaseHealth": 1269,
+    "BaseHealth": 1069,
     "BaseAttack": 35,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18567,7 +18911,7 @@
     "AssetId": "PigDrone",
     "LocaId": "pig_drone_medic_boss",
     "DefaultInventoryNameId": "pig_drone_medic",
-    "BaseHealth": 1069,
+    "BaseHealth": 869,
     "BaseAttack": 32,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18708,7 +19052,7 @@
     "AssetId": "PigMage",
     "LocaId": "pig_caster_ankle_dan_boss",
     "DefaultInventoryNameId": "pig_caster_ankle_dan",
-    "BaseHealth": 2069,
+    "BaseHealth": 1669,
     "BaseAttack": 35,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18743,7 +19087,7 @@
     "AssetId": "SonicDashSmall",
     "LocaId": "pig_sentry",
     "DefaultInventoryNameId": "pig_sonic_motobug_01",
-    "BaseHealth": 320,
+    "BaseHealth": 300,
     "BaseAttack": 45,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18775,7 +19119,7 @@
     "AssetId": "SonicDashSmall",
     "LocaId": "pig_dispenser",
     "DefaultInventoryNameId": "pig_sonic_motobug_golden_01",
-    "BaseHealth": 320,
+    "BaseHealth": 300,
     "BaseAttack": 1,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18807,7 +19151,7 @@
     "AssetId": "SonicDashSmall",
     "LocaId": "pig_teleporter",
     "DefaultInventoryNameId": "pig_sonic_spikes_01",
-    "BaseHealth": 320,
+    "BaseHealth": 300,
     "BaseAttack": 1,
     "PerLevelHealth": 0,
     "PerLevelAttack": 0,
@@ -18865,5 +19209,119 @@
     "PigStrength": 5,
     "PassiveSkillNameId": "pig_passive_block_consumables",
     "IgnoreDifficulty": false
-  }
+  },
+  {
+    "NameId": "pig_ninja_master_expansion_boss",
+    "AssetId": "NinjaPig",
+    "LocaId": "pig_ninja_master_expansion_boss",
+    "DefaultInventoryNameId": "pig_ninja_master_expansion_boss",
+    "BaseHealth": 1200,
+    "BaseAttack": 15,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_ninja_master_expansion_boss",
+      "pig_support_ninja_master_expansion_boss"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 50.0,
+        "ComboChain": [
+          "pig_attack_ninja_master_expansion_boss",
+          "pig_support_ninja_master_expansion_boss"
+        ]
+      },
+	  {
+        "Percentage": 50.0,
+        "ComboChain": [
+          "pig_attack_ninja_master_expansion_boss"
+        ]
+      }
+    ],
+    "SizeType": 2,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig_boss_01_defeated_gold": 1,
+      "loot_pig_boss_01_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.3,
+    "PigStrength": 20,
+    "PassiveSkillNameId": "pig_passive_fastness_02",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_ghost_banshee_expansion_boss",
+    "AssetId": "GhostPig",
+    "LocaId": "pig_ghost_banshee_expansion_boss",
+    "DefaultInventoryNameId": "pig_ghost_banshee_expansion_boss",
+    "BaseHealth": 800,
+    "BaseAttack": 15,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_ghost_banshee_expansion_boss",
+      "pig_attack_ghost_banshee_expansion_boss_02"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 60.0,
+        "ComboChain": [
+          "pig_attack_ghost_banshee_expansion_boss",
+          "pig_attack_ghost_banshee_expansion_boss_02"
+        ]
+      },
+	  {
+        "Percentage": 40.0,
+        "ComboChain": [
+          "pig_attack_ghost_banshee_expansion_boss"
+        ]
+      }
+    ],
+    "SizeType": 2,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig_boss_01_defeated_gold": 1,
+      "loot_pig_boss_01_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.3,
+    "PigStrength": 19,
+    "PassiveSkillNameId": "pig_passive_spirit",
+    "IgnoreDifficulty": false
+  },
+  {
+    "NameId": "pig_knight_shogun_expansion_boss",
+    "AssetId": "PigKnight",
+    "LocaId": "pig_knight_shogun_expansion_boss",
+    "DefaultInventoryNameId": "pig_knight_shogun_expansion_boss",
+    "BaseHealth": 1800,
+    "BaseAttack": 15,
+    "PerLevelHealth": 0,
+    "PerLevelAttack": 0,
+    "SkillNameIds": [
+      "pig_attack_knight_shogun_expansion_boss",
+      "pig_attack_knight_shogun_expansion_boss_02"
+    ],
+    "SkillCombos": [
+      {
+        "Percentage": 100.0,
+        "ComboChain": [
+          "pig_attack_knight_shogun_expansion_boss",
+          "pig_attack_knight_shogun_expansion_boss_02"
+        ]
+      }
+    ],
+    "SizeType": 2,
+    "Faction": 1,
+    "LootTableDefeatBonus": {
+      "loot_pig_boss_01_defeated_gold": 1,
+      "loot_pig_boss_01_defeated_exp": 1,
+      "loot_piglarge_defeated_mastery": 1
+    },
+    "SizeScale": 1.2,
+    "PigStrength": 19,
+    "PassiveSkillNameId": "pig_passive_ironclad",
+    "IgnoreDifficulty": false
+  },
 ]

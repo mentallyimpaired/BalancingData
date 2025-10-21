@@ -732,6 +732,13 @@
     "InitializingLevel": 0
   },
   {
+    "NameId": "pig_minion_homeless_01",
+    "DefaultInventoryContent": {
+      "headgear_homeless": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
     "NameId": "pig_minion_turban_01",
     "DefaultInventoryContent": {
       "pig_weapon_minion_turban_arabic_sword_01": 1,
@@ -1269,6 +1276,14 @@
     "InitializingLevel": 0
   },
   {
+    "NameId": "pig_knight_shogun_expansion_boss",
+    "DefaultInventoryContent": {
+      "pig_weapon_knight_sticky_bomb_01": 1,
+      "headgear_knight_shogun_veteran": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
     "NameId": "pig_knight_royal_guard_01",
     "DefaultInventoryContent": {
       "pig_weapon_knight_doll_mace_01": 1,
@@ -1426,6 +1441,29 @@
     "InitializingLevel": 0
   },
   {
+    "NameId": "pig_zombie_troglobite",
+    "DefaultInventoryContent": {
+      "headgear_zombie_troglobite": 1,
+      "pig_weapon_troglobite": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
+    "NameId": "pig_zombie_hunter",
+    "DefaultInventoryContent": {
+      "headgear_zombie_hunter": 1,
+      "pig_weapon_zombie_mummy": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
+    "NameId": "pig_zombie_blockhead",
+    "DefaultInventoryContent": {
+      "headgear_zombie_blockhead": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
     "NameId": "pig_shaman_shaman_01",
     "DefaultInventoryContent": {
       "pig_weapon_shaman_shaman": 1
@@ -1457,6 +1495,14 @@
     "InitializingLevel": 0
   },
   {
+    "NameId": "pig_shaman_dark_01",
+    "DefaultInventoryContent": {
+      "pig_weapon_shaman_shaman": 1,
+	  "headgear_shaman_dark": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
     "NameId": "pig_ghost_ship_01",
     "DefaultInventoryContent": null,
     "InitializingLevel": 0
@@ -1481,6 +1527,14 @@
     "DefaultInventoryContent": {
       "headgear_ghost_banshee": 1,
       "pig_weapon_ghost_banshee": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
+    "NameId": "pig_ghost_banshee_expansion_boss",
+    "DefaultInventoryContent": {
+      "headgear_ghost_banshee_veteran": 1,
+      "pig_weapon_ghost_banshee_veteran_fan_01": 1
     },
     "InitializingLevel": 0
   },
@@ -1557,6 +1611,14 @@
     "DefaultInventoryContent": {
       "pig_weapon_ninja_kill_bill_katana_01": 1,
       "headgear_ninja_master": 1
+    },
+    "InitializingLevel": 0
+  },
+  {
+    "NameId": "pig_ninja_master_expansion_boss",
+    "DefaultInventoryContent": {
+      "pig_weapon_ninja_master_veteran_01": 1,
+      "headgear_ninja_master_veteran": 1
     },
     "InitializingLevel": 0
   },

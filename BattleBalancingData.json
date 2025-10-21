@@ -5002,7 +5002,7 @@
       "bpart_040"
     ],
     "LootTableWheel": {
-      "battle_flotsam_02": 1
+      "battle_shiny_sand": 1
     },
     "LootTableAdditional": {
       "addbird_blackbird": 1,
@@ -5048,7 +5048,7 @@
       "bpart_040_1"
     ],
     "LootTableWheel": {
-      "battle_flotsam_02": 1
+      "battle_shiny_sand": 1
     },
     "LootTableAdditional": null,
     "StrengthPoints": 15,
@@ -17537,6 +17537,7 @@
       "loot_egg_bonus": 1,
       "comic_cutscene_07": 1,
       "unlock_chronicle_cave": 1,
+	  "unlock_expansion_campaign": 1,
       "unlock_npc_porky": 1
     },
     "StrengthPoints": 15,
@@ -92842,7 +92843,7 @@
       "bpart_oldman"
     ],
     "LootTableWheel": {
-      "loot_miniboss_35_01": 1
+      "wheel_expansion_hard_boss": 1
     },
     "LootTableAdditional": {
 	  "addbird_oldman": 1
@@ -92887,7 +92888,7 @@
       "bpart_oldman"
     ],
     "LootTableWheel": {
-      "loot_miniboss_35_01": 1
+      "wheel_expansion_hard_boss": 1
     },
     "LootTableAdditional": null,
     "StrengthPoints": 15,
@@ -92922,7 +92923,7 @@
     "PowerlevelModifier": 0.0
   },
   {
-    "NameId": "battle_bossrush",
+    "NameId": "battle_maelstrom_bossrush",
     "BaseLevel": 100,
     "BattleParticipantsIds": [
       "bpart_bossrush_01",
@@ -92932,7 +92933,7 @@
 	  "bpart_bossrush_05"
     ],
     "LootTableWheel": {
-      "loot_miniboss_35_01": 1
+      "wheel_expansion_hard": 1
     },
     "LootTableAdditional": {
       "unlock_npc_hailstorm": 1,
@@ -92968,15 +92969,13 @@
     "PowerLevelThresholdLow": 50.0,
     "PowerLevelThresholdHigh": 0.0,
     "ApplyPowerLevelBalancing": false,
-    "Difficulty": 50,
-    "BonusLoot": {
-      "experience": 88
-    },
+    "Difficulty": -25,
+    "BonusLoot": null,
     "BattleType": "BossRush",
     "PowerlevelModifier": 0.0
   },
   {
-    "NameId": "battle_bossrush_resolved",
+    "NameId": "battle_maelstrom_bossrush_resolved",
     "BaseLevel": 100,
     "BattleParticipantsIds": [
       "bpart_bossrush_01",
@@ -92986,7 +92985,7 @@
 	  "bpart_bossrush_05"
     ],
     "LootTableWheel": {
-      "loot_miniboss_35_01": 1
+      "wheel_expansion_hard": 1
     },
     "LootTableAdditional": null,
     "StrengthPoints": 15,
@@ -93032,9 +93031,3300 @@
     "PowerLevelThresholdLow": 50.0,
     "PowerLevelThresholdHigh": 0.0,
     "ApplyPowerLevelBalancing": false,
-    "Difficulty": 50,
+    "Difficulty": -25,
     "BonusLoot": null,
     "BattleType": "BossRush",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_maelstrom_bossrush_resolved_hard",
+    "BaseLevel": 100,
+    "BattleParticipantsIds": [
+      "bpart_bossrush_01",
+	  "bpart_bossrush_02",
+	  "bpart_bossrush_03",
+	  "bpart_bossrush_04",
+	  "bpart_bossrush_05"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard_boss": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 2,
+        "NameId": "unlock_npc_hailstorm",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 2,
+        "NameId": "unlock_npc_brainstorm",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 2,
+        "NameId": "unlock_npc_giant_heavy",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 2,
+        "NameId": "unlock_npc_ankle_dan",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_SouthBeach_01_KrakenBoss",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "music_battle_06",
+    "ScoringStrategy": 0,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Birds": "env_honorbound"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 100,
+    "BonusLoot": null,
+    "BattleType": "BossRush",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_01",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_01_1",
+      "bpart_expansion_bamboo_forest_01_2",
+      "bpart_expansion_bamboo_forest_01_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_01_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_01_1",
+      "bpart_expansion_bamboo_forest_01_2",
+      "bpart_expansion_bamboo_forest_01_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_01_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_01_1",
+      "bpart_expansion_bamboo_forest_01_2",
+      "bpart_expansion_bamboo_forest_01_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 100,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_02",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_02_1",
+      "bpart_expansion_bamboo_forest_02_2",
+      "bpart_expansion_bamboo_forest_02_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_02_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_02_1",
+      "bpart_expansion_bamboo_forest_02_2",
+      "bpart_expansion_bamboo_forest_02_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_02_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_02_1",
+      "bpart_expansion_bamboo_forest_02_2",
+      "bpart_expansion_bamboo_forest_02_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 100,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_03",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_03_1",
+      "bpart_expansion_bamboo_forest_03_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_03_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_03_1",
+      "bpart_expansion_bamboo_forest_03_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_03_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_03_1",
+      "bpart_expansion_bamboo_forest_03_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 2,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 100,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_04",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_04_1",
+      "bpart_expansion_bamboo_forest_04_2",
+      "bpart_expansion_bamboo_forest_04_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_04_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_04_1",
+      "bpart_expansion_bamboo_forest_04_2",
+      "bpart_expansion_bamboo_forest_04_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_04_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_04_1",
+      "bpart_expansion_bamboo_forest_04_2",
+      "bpart_expansion_bamboo_forest_04_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_05",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_05_1",
+      "bpart_expansion_bamboo_forest_05_2",
+      "bpart_expansion_bamboo_forest_05_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_05_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_05_1",
+      "bpart_expansion_bamboo_forest_05_2",
+      "bpart_expansion_bamboo_forest_05_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_05_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_05_1",
+      "bpart_expansion_bamboo_forest_05_2",
+      "bpart_expansion_bamboo_forest_05_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_06",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_06_1",
+      "bpart_expansion_bamboo_forest_06_2",
+      "bpart_expansion_bamboo_forest_06_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_06_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_06_1",
+      "bpart_expansion_bamboo_forest_06_2",
+      "bpart_expansion_bamboo_forest_06_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_06_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_06_1",
+      "bpart_expansion_bamboo_forest_06_2",
+      "bpart_expansion_bamboo_forest_06_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_07",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_07_1",
+      "bpart_expansion_bamboo_forest_07_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_blue",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_07_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_07_1",
+      "bpart_expansion_bamboo_forest_07_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_blue",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_07_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_07_1",
+      "bpart_expansion_bamboo_forest_07_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_blue",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_08",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_08_1",
+      "bpart_expansion_bamboo_forest_08_2",
+      "bpart_expansion_bamboo_forest_08_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_08_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_08_1",
+      "bpart_expansion_bamboo_forest_08_2",
+      "bpart_expansion_bamboo_forest_08_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_08_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_08_1",
+      "bpart_expansion_bamboo_forest_08_2",
+      "bpart_expansion_bamboo_forest_08_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_09",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_09_1",
+      "bpart_expansion_bamboo_forest_09_2",
+      "bpart_expansion_bamboo_forest_09_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_09_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_09_1",
+      "bpart_expansion_bamboo_forest_09_2",
+      "bpart_expansion_bamboo_forest_09_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_09_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_09_1",
+      "bpart_expansion_bamboo_forest_09_2",
+      "bpart_expansion_bamboo_forest_09_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_10",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_10_1",
+      "bpart_expansion_bamboo_forest_10_2",
+      "bpart_expansion_bamboo_forest_10_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_10_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_10_1",
+      "bpart_expansion_bamboo_forest_10_2",
+      "bpart_expansion_bamboo_forest_10_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_10_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_10_1",
+      "bpart_expansion_bamboo_forest_10_2",
+      "bpart_expansion_bamboo_forest_10_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_11",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_11_1",
+      "bpart_expansion_bamboo_forest_11_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_red",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_11_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_11_1",
+      "bpart_expansion_bamboo_forest_11_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_red",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_11_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_11_1",
+      "bpart_expansion_bamboo_forest_11_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_red",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 150.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_12",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_12"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Special",
+    "ScoringStrategy": 1,
+    "BonusPoints": 10000,
+    "EnvironmentalEffects": {
+      "Pigs": "env_cc_floor_16"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Undead",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_12_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_12"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Special",
+    "ScoringStrategy": 1,
+    "BonusPoints": 10000,
+    "EnvironmentalEffects": {
+      "Pigs": "env_cc_floor_16"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Undead",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_12_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_12"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_02",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Special",
+    "ScoringStrategy": 1,
+    "BonusPoints": 10000,
+    "EnvironmentalEffects": {
+      "Pigs": "env_cc_floor_16"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 3,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 150,
+    "BonusLoot": null,
+    "BattleType": "Undead",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_13",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_13_1",
+      "bpart_expansion_bamboo_forest_13_2",
+      "bpart_expansion_bamboo_forest_13_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_13_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_13_1",
+      "bpart_expansion_bamboo_forest_13_2",
+      "bpart_expansion_bamboo_forest_13_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_13_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_13_1",
+      "bpart_expansion_bamboo_forest_13_2",
+      "bpart_expansion_bamboo_forest_13_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_14",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_14_1",
+      "bpart_expansion_bamboo_forest_14_2",
+      "bpart_expansion_bamboo_forest_14_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_14_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_14_1",
+      "bpart_expansion_bamboo_forest_14_2",
+      "bpart_expansion_bamboo_forest_14_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_14_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_14_1",
+      "bpart_expansion_bamboo_forest_14_2",
+      "bpart_expansion_bamboo_forest_14_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_15",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_15_1",
+      "bpart_expansion_bamboo_forest_15_2",
+      "bpart_expansion_bamboo_forest_15_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_red",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_15_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_15_1",
+      "bpart_expansion_bamboo_forest_15_2",
+      "bpart_expansion_bamboo_forest_15_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_red",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_15_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_15_1",
+      "bpart_expansion_bamboo_forest_15_2",
+      "bpart_expansion_bamboo_forest_15_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_red",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_16",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_16_1",
+      "bpart_expansion_bamboo_forest_16_2",
+      "bpart_expansion_bamboo_forest_16_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_16_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_16_1",
+      "bpart_expansion_bamboo_forest_16_2",
+      "bpart_expansion_bamboo_forest_16_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_16_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_16_1",
+      "bpart_expansion_bamboo_forest_16_2",
+      "bpart_expansion_bamboo_forest_16_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_17",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_17_1",
+      "bpart_expansion_bamboo_forest_17_2",
+      "bpart_expansion_bamboo_forest_17_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_17_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_17_1",
+      "bpart_expansion_bamboo_forest_17_2",
+      "bpart_expansion_bamboo_forest_17_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_17_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_17_1",
+      "bpart_expansion_bamboo_forest_17_2",
+      "bpart_expansion_bamboo_forest_17_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_18",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_18_1",
+      "bpart_expansion_bamboo_forest_18_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_18_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_18_1",
+      "bpart_expansion_bamboo_forest_18_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_18_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_18_1",
+      "bpart_expansion_bamboo_forest_18_2"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 21,
+        "NameId": "bird_white",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 1,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_19",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_19_1",
+      "bpart_expansion_bamboo_forest_19_2",
+      "bpart_expansion_bamboo_forest_19_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_19_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_19_1",
+      "bpart_expansion_bamboo_forest_19_2",
+      "bpart_expansion_bamboo_forest_19_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_19_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_19_1",
+      "bpart_expansion_bamboo_forest_19_2",
+      "bpart_expansion_bamboo_forest_19_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_20",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_20_1",
+      "bpart_expansion_bamboo_forest_20_2",
+      "bpart_expansion_bamboo_forest_20_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_20_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_20_1",
+      "bpart_expansion_bamboo_forest_20_2",
+      "bpart_expansion_bamboo_forest_20_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_20_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_20_1",
+      "bpart_expansion_bamboo_forest_20_2",
+      "bpart_expansion_bamboo_forest_20_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_21",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_21_1",
+      "bpart_expansion_bamboo_forest_21_2",
+      "bpart_expansion_bamboo_forest_21_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_blue",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_21_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_21_1",
+      "bpart_expansion_bamboo_forest_21_2",
+      "bpart_expansion_bamboo_forest_21_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_blue",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_21_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_21_1",
+      "bpart_expansion_bamboo_forest_21_2",
+      "bpart_expansion_bamboo_forest_21_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_blue",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_22",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_22_1",
+      "bpart_expansion_bamboo_forest_22_2",
+      "bpart_expansion_bamboo_forest_22_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_22_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_22_1",
+      "bpart_expansion_bamboo_forest_22_2",
+      "bpart_expansion_bamboo_forest_22_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_22_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_22_1",
+      "bpart_expansion_bamboo_forest_22_2",
+      "bpart_expansion_bamboo_forest_22_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_23",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_23_1",
+      "bpart_expansion_bamboo_forest_23_2",
+      "bpart_expansion_bamboo_forest_23_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      },
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_23_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_23_1",
+      "bpart_expansion_bamboo_forest_23_2",
+      "bpart_expansion_bamboo_forest_23_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_23_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_23_1",
+      "bpart_expansion_bamboo_forest_23_2",
+      "bpart_expansion_bamboo_forest_23_3"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+	  {
+        "RequirementType": 22,
+        "NameId": "bird_black",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_24",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_24_1",
+      "bpart_expansion_bamboo_forest_24_2",
+	  "bpart_expansion_bamboo_forest_24_3",
+      "bpart_expansion_bamboo_forest_24_4",
+      "bpart_expansion_bamboo_forest_24_5"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_24_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_24_1",
+      "bpart_expansion_bamboo_forest_24_2",
+	  "bpart_expansion_bamboo_forest_24_3",
+      "bpart_expansion_bamboo_forest_24_4",
+      "bpart_expansion_bamboo_forest_24_5"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_24_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_24_1",
+      "bpart_expansion_bamboo_forest_24_2",
+	  "bpart_expansion_bamboo_forest_24_3",
+      "bpart_expansion_bamboo_forest_24_4",
+      "bpart_expansion_bamboo_forest_24_5"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_BambooForest_03",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "Music_Combat_Basic",
+    "ScoringStrategy": 1,
+    "BonusPoints": 0,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 200.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_25",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_25"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": {
+      "loot_expansion_boss": 1,
+	  "popup_loot_expansion_boss": 1
+    },
+    "StrengthPoints": 15,
+    "BattleRequirements": [
+      {
+        "RequirementType": 9,
+        "NameId": "active",
+        "Value": 1.0
+      }
+    ],
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_VolcanoIslandDungeon_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "music_battle_06",
+    "ScoringStrategy": 1,
+    "BonusPoints": 75000,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest",
+	  "Birds": "env_honorbound"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_25_resolved",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_25"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_VolcanoIslandDungeon_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "music_battle_06",
+    "ScoringStrategy": 1,
+    "BonusPoints": 75000,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest",
+	  "Birds": "env_honorbound"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 0,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
+    "PowerlevelModifier": 0.0
+  },
+  {
+    "NameId": "battle_expansion_bamboo_forest_25_resolved_hard",
+    "BaseLevel": 16,
+    "BattleParticipantsIds": [
+      "bpart_expansion_bamboo_forest_25"
+    ],
+    "LootTableWheel": {
+      "wheel_expansion_hard_boss": 1
+    },
+    "LootTableAdditional": null,
+    "StrengthPoints": 15,
+    "BattleRequirements": null,
+    "LootTableLost": {
+      "gold": 2
+    },
+    "BackgroundAssetId": "Battleground_VolcanoIslandDungeon_01",
+    "UsableFriendBirdsCount": 0,
+    "SoundAssetId": "music_battle_06",
+    "ScoringStrategy": 1,
+    "BonusPoints": 75000,
+    "EnvironmentalEffects": {
+      "Pigs": "env_expansion_bamboo_forest",
+	  "Birds": "env_honorbound"
+    },
+    "EnvironmentalStartWave": 1,
+    "MaxBirdsInBattle": 4,
+    "AdditionalAttackInPercent": 0.0,
+    "AdditionalHealthInPercent": 0.0,
+    "LootTableWheelAfterWave": null,
+    "Force_Character": "",
+    "PowerLevelThresholdLow": 50.0,
+    "PowerLevelThresholdHigh": 0.0,
+    "ApplyPowerLevelBalancing": false,
+    "Difficulty": 200,
+    "BonusLoot": null,
+    "BattleType": "Dodge",
     "PowerlevelModifier": 0.0
   }
 ]
